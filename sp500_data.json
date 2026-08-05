@@ -4,19 +4,19 @@
         "name": "NVIDIA Corporation",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 211.94,
+        "price": 219.38,
         "profit": 63.0,
-        "pe": 31.63,
-        "pb": 26.26,
-        "ps": 20.25,
+        "pe": 32.65,
+        "pb": 27.18,
+        "ps": 20.96,
         "evEbitda": 30.74,
         "shortDesc": "Semiconductors",
-        "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它通过计算和网络以及图形部门运营。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商和分銷商、獨立軟體供應商、雲端服務供應商、附加板製造商、經銷商、汽車製造商和一級汽車供應商以及其他生態系統參與者。",
+        "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它透過計算和網路以及圖形部門運作。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商",
         "estEps": 1.77,
         "actEps": 1.87,
-        "surprise": 554.0,
+        "surprise": 5.54,
         "nextEarnings": "2026-08-26",
-        "fairPe": 31.63,
+        "fairPe": 32.65,
         "epsStd": 0.023,
         "history": [
             {
@@ -30,56 +30,56 @@
                 "quarter": "2026 Q2",
                 "est": 1.77,
                 "act": 1.87,
-                "surprise": 554.0,
+                "surprise": 5.54,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 1.54,
                 "act": 1.62,
-                "surprise": 532.0,
+                "surprise": 5.32,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 1.26,
                 "act": 1.3,
-                "surprise": 346.0,
+                "surprise": 3.46,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 1.01,
                 "act": 1.05,
-                "surprise": 410.0,
+                "surprise": 4.1,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 0.75,
                 "act": 0.81,
-                "surprise": 802.0,
+                "surprise": 8.02,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 0.85,
                 "act": 0.89,
-                "surprise": 525.0,
+                "surprise": 5.25,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 0.75,
                 "act": 0.81,
-                "surprise": 852.0,
+                "surprise": 8.52,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q3",
                 "est": 0.64,
                 "act": 0.68,
-                "surprise": 566.0,
+                "surprise": 5.66,
                 "status": "Beat"
             }
         ]
@@ -89,20 +89,20 @@
         "name": "Apple Inc.",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 309.38,
+        "price": 307.93,
         "profit": 27.6,
-        "pe": 34.84,
-        "pb": 42.04,
-        "ps": 9.67,
-        "evEbitda": 27.01,
+        "pe": 35.97,
+        "pb": 41.84,
+        "ps": 9.63,
+        "evEbitda": 26.5,
         "shortDesc": "Consumer Electronics",
-        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，該公司還提供各種基於訂閱的服務，例如Apple Arcade，遊戲訂閱服務； Apple Fitness+，個人化健身服務； Apple Music，為用戶提供精選的聆聽服務",
+        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
         "estEps": 1.89,
         "actEps": 2.02,
-        "surprise": 674.0,
+        "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 34.84,
-        "epsStd": 0.054,
+        "fairPe": 35.97,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -115,56 +115,56 @@
                 "quarter": "2026 Q3",
                 "est": 1.89,
                 "act": 2.02,
-                "surprise": 674.0,
+                "surprise": 6.74,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q2",
                 "est": 1.94,
                 "act": 2.01,
-                "surprise": 346.0,
+                "surprise": 3.46,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 634.0,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 1.77,
                 "act": 1.85,
-                "surprise": 452.0,
+                "surprise": 4.52,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 1012.0,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.62,
                 "act": 1.65,
-                "surprise": 169.0,
+                "surprise": 1.69,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 252.0,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 0.95,
                 "act": 0.97,
-                "surprise": 248.0,
+                "surprise": 2.48,
                 "status": "Beat"
             }
         ]
@@ -174,19 +174,19 @@
         "name": "Microsoft Corporation",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 492.81,
+        "price": 488.07,
         "profit": 40.3,
-        "pe": 26.19,
-        "pb": 8.27,
-        "ps": 11.03,
-        "evEbitda": 18.91,
+        "pe": 27.21,
+        "pb": 8.19,
+        "ps": 10.92,
+        "evEbitda": 19.11,
         "shortDesc": "Software - Infrastructure",
-        "story": "Microsoft Corporation 是一家技術公司，為全球個人和企業開發並支援一系列技術解決方案。它透過三個部門運作：生產力和業務流程、智慧雲端和更多個人運算。生產力和業務流程部門提供 Microsoft 365 Commercial、企業移動性 + 安全性、Power BI、Exchange、SharePoint、Microsoft Teams、Microsoft 365 安全性和合規性、Microsoft 365 Copilot 以及 Windows Commercial 本機部署和 Office 授權本機部署。該部門還提供 Microsoft 365 消費者產品和雲端服務； LinkedIn，包括人才解決方案、行銷解決方案、訂閱和銷售解決方案； Dynamics 365，一組基於雲端的應用程式；以及本地 ERP 和 CRM 應用程式。智慧雲端部門提供伺服器產品和雲端服務；基於雲端和人工智慧消費的服務、GitHub 雲端服務、健康和生命科學雲端服務、",
+        "story": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. It operates through three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. The Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. The Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington.",
         "estEps": 4.24,
         "actEps": 4.74,
-        "surprise": 1181.0,
+        "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 26.19,
+        "fairPe": 27.21,
         "epsStd": 0.138,
         "history": [
             {
@@ -200,56 +200,56 @@
                 "quarter": "2026 Q3",
                 "est": 4.24,
                 "act": 4.74,
-                "surprise": 1181.0,
+                "surprise": 11.81,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q2",
                 "est": 4.07,
                 "act": 4.27,
-                "surprise": 490.0,
+                "surprise": 4.9,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 3.92,
                 "act": 4.14,
-                "surprise": 569.0,
+                "surprise": 5.69,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 3.66,
                 "act": 4.13,
-                "surprise": 1273.0,
+                "surprise": 12.73,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 3.38,
                 "act": 3.65,
-                "surprise": 809.0,
+                "surprise": 8.09,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 3.22,
                 "act": 3.46,
-                "surprise": 740.0,
+                "surprise": 7.4,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 3.12,
                 "act": 3.23,
-                "surprise": 347.0,
+                "surprise": 3.47,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 3.11,
                 "act": 3.3,
-                "surprise": 613.0,
+                "surprise": 6.13,
                 "status": "Beat"
             }
         ]
@@ -259,19 +259,19 @@
         "name": "Tesla, Inc.",
         "sector": "Consumer Cyclical",
         "marketIndex": "S&P 500",
-        "price": 327.35,
+        "price": 322.65,
         "profit": 3.7,
-        "pe": 300.32,
-        "pb": 14.95,
-        "ps": 12.48,
-        "evEbitda": 117.72,
+        "pe": 298.75,
+        "pb": 14.4,
+        "ps": 12.3,
+        "evEbitda": 115.79,
         "shortDesc": "Auto Manufacturers",
-        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接銷售和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；以及車輛有限保固和延長服務計劃。此外，公司也從事太陽能發電、儲能產品及相關產品的設計、製造、安裝、銷售和租賃。",
+        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接銷售和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
         "estEps": 0.54,
         "actEps": 0.33,
-        "surprise": -3835.0,
+        "surprise": -38.35,
         "nextEarnings": "2026-10-21",
-        "fairPe": 300.32,
+        "fairPe": 298.75,
         "epsStd": 0.109,
         "history": [
             {
@@ -285,56 +285,56 @@
                 "quarter": "2026 Q3",
                 "est": 0.54,
                 "act": 0.33,
-                "surprise": -3835.0,
+                "surprise": -38.35,
                 "status": "Miss"
             },
             {
                 "quarter": "2026 Q2",
                 "est": 0.35,
                 "act": 0.41,
-                "surprise": 1715.0,
+                "surprise": 17.15,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 0.45,
                 "act": 0.5,
-                "surprise": 1096.0,
+                "surprise": 10.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 0.56,
                 "act": 0.5,
-                "surprise": -1053.0,
+                "surprise": -10.53,
                 "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 0.4,
                 "act": 0.4,
-                "surprise": -111.0,
+                "surprise": -1.11,
                 "status": "Miss"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 0.41,
                 "act": 0.27,
-                "surprise": -3489.0,
+                "surprise": -34.89,
                 "status": "Miss"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 0.77,
                 "act": 0.73,
-                "surprise": -511.0,
+                "surprise": -5.11,
                 "status": "Miss"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 0.6,
                 "act": 0.72,
-                "surprise": 2049.0,
+                "surprise": 20.49,
                 "status": "Beat"
             }
         ]
@@ -344,20 +344,20 @@
         "name": "Amazon.com, Inc.",
         "sector": "Consumer Cyclical",
         "marketIndex": "S&P 500",
-        "price": 277.42,
+        "price": 273.57,
         "profit": 17.4,
-        "pe": 22.83,
-        "pb": 5.42,
-        "ps": 3.86,
+        "pe": 22.01,
+        "pb": 5.35,
+        "ps": 3.8,
         "evEbitda": 18.9,
         "shortDesc": "Internet Retail",
-        "story": "Amazon.com, Inc. 透過北美和國際的線上和實體商店從事消費品零售、廣告和訂閱服務。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它還提供運算、儲存、人工智慧、資料庫、分析、機器學習和其他服務，以及透過贊助廣告、展示和影片廣告等程式提供的廣告服務。此外，該公司還提供 Amazon Prime 會員服務",
+        "story": "Amazon.com, Inc. 透過北美和國際的線上和實體商店從事消費品零售、廣告和訂閱服務。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它還提供運算、儲存、人工智慧、資料庫、分析、機器",
         "estEps": 1.83,
         "actEps": 5.75,
-        "surprise": 21502.0,
+        "surprise": 215.02,
         "nextEarnings": "2026-10-29",
-        "fairPe": 22.83,
-        "epsStd": 1.288,
+        "fairPe": 22.01,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -370,56 +370,56 @@
                 "quarter": "2026 Q3",
                 "est": 1.83,
                 "act": 5.75,
-                "surprise": 21502.0,
+                "surprise": 215.02,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 6818.0,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 1.95,
                 "act": 1.95,
-                "surprise": 22.0,
+                "surprise": 0.22,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 1.56,
                 "act": 1.95,
-                "surprise": 2520.0,
+                "surprise": 25.2,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 2613.0,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 1708.0,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 2536.0,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 2517.0,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -429,20 +429,20 @@
         "name": "Meta Platforms, Inc.",
         "sector": "Communication Services",
         "marketIndex": "S&P 500",
-        "price": 587.94,
+        "price": 583.79,
         "profit": 29.8,
-        "pe": 22.22,
-        "pb": 6.12,
-        "ps": 6.56,
+        "pe": 21.97,
+        "pb": 6.08,
+        "ps": 6.52,
         "evEbitda": 13.91,
         "shortDesc": "Internet Content & Information",
-        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過 feed、reels、故事、群組、市場等建立社區； Instagram 透過 Instagram 動態、故事、視訊、直播和訊息傳遞拉近人們的距離； Messenger，一款訊息應用程序，供人們透過文字、音訊和視訊通話和視訊與朋友、家人、社群和企業聯絡； Threads，一個基於文字的更新和公共對話的應用程式；以及 WhatsApp，一種使用的訊息應用程式",
+        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過提要、捲軸、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一款訊息應用程序，供人們透過文字、音訊和視訊通話跨平台和裝置與朋友、家人、社群和企業聯繫； Meta AI，一個助手",
         "estEps": 7.22,
         "actEps": 6.18,
-        "surprise": -1442.0,
+        "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 22.22,
-        "epsStd": 2.735,
+        "fairPe": 21.97,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -455,56 +455,56 @@
                 "quarter": "2026 Q3",
                 "est": 7.22,
                 "act": 6.18,
-                "surprise": -1442.0,
+                "surprise": -14.42,
                 "status": "Miss"
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 5679.0,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 8.22,
                 "act": 8.88,
-                "surprise": 800.0,
+                "surprise": 8.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -8434.0,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 2096.0,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 2311.0,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 1867.0,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 1394.0,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -514,20 +514,20 @@
         "name": "Alphabet Inc.",
         "sector": "Communication Services",
         "marketIndex": "S&P 500",
-        "price": 377.65,
+        "price": 376.99,
         "profit": 54.8,
-        "pe": 18.72,
-        "pb": 7.42,
-        "ps": 10.36,
-        "evEbitda": 26.07,
+        "pe": 18.91,
+        "pb": 7.41,
+        "ps": 10.34,
+        "evEbitda": 25.78,
         "shortDesc": "Internet Content & Information",
-        "story": "Alphabet Inc. 在美國、歐洲、中東、非洲、亞太地區、加拿大和拉丁美洲提供各種產品和平台。它透過谷歌服務、谷歌雲端和其他賭注部門運作。 Google 服務部門提供產品和服務，包括廣告、Android、Chrome、裝置、Gmail、Google 雲端硬碟、Google 地圖、Google 照片、Google Play、搜尋和 YouTube。它還參與 Google Play 和 YouTube 中應用程式的銷售和應用程式內購買以及數位內容；和設備，以及提供 YouTube 消費者訂閱服務，例如 YouTube TV、YouTube Music 和 Premium、NFL Sunday Ticket 和 Google One。 Google Cloud 部門為 AI 解決方案提供以消費為基礎的費用和訂閱，包括 AI 基礎架構、Vertex AI 平台和 Gemini 企業。它還提供網路安全、數據和分析服務； Google Workspace 包含面向企業的基於雲端的通訊和協作工具",
+        "story": "Alphabet Inc. 在美國、歐洲、中東、非洲、亞太地區、加拿大和拉丁美洲提供各種產品和平台。它透過谷歌服務、谷歌雲端和其他賭注部門運作。 Google 服務部門提供產品和服務，包括廣告、Android、Chrome、裝置、Gmail、Google 雲端硬碟、Google 地圖、Google 照片、Google Play、搜尋和 YouTube。它還參與 Google Play 和 YouTube 中應用程式的銷售和應用程式內購買以及數位內容；和設備，以及提供 YouTube 消費者訂閱服務，例如 YouTube TV、YouTube Music 和 Premium、NFL Sunday Ticket 和 Google One。谷歌雲端部門為人工智慧解決方案提供基於消費的費用和訂閱，包括人工智慧基礎設施",
         "estEps": 2.9,
         "actEps": 9.11,
-        "surprise": 21423.0,
+        "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 18.72,
-        "epsStd": 2.12,
+        "fairPe": 18.91,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -540,56 +540,56 @@
                 "quarter": "2026 Q3",
                 "est": 2.9,
                 "act": 9.11,
-                "surprise": 21423.0,
+                "surprise": 214.23,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 9159.0,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 2.64,
                 "act": 2.82,
-                "surprise": 701.0,
+                "surprise": 7.01,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 2.26,
                 "act": 2.87,
-                "surprise": 2688.0,
+                "surprise": 26.88,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 2.19,
                 "act": 2.31,
-                "surprise": 567.0,
+                "surprise": 5.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 4010.0,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 2.13,
                 "act": 2.15,
-                "surprise": 118.0,
+                "surprise": 1.18,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.85,
                 "act": 2.12,
-                "surprise": 1483.0,
+                "surprise": 14.83,
                 "status": "Beat"
             }
         ]
@@ -599,19 +599,19 @@
         "name": "Berkshire Hathaway Inc. New",
         "sector": "Financial Services",
         "marketIndex": "S&P 500",
-        "price": 517.22,
+        "price": 513.8,
         "profit": 19.3,
-        "pe": 15.27,
+        "pe": 15.24,
         "pb": 0.0,
-        "ps": 2.97,
+        "ps": 2.95,
         "evEbitda": -2.25,
         "shortDesc": "Insurance - Diversified",
-        "story": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska.",
+        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
         "estEps": 5.05,
         "actEps": 5.26,
-        "surprise": 417.0,
+        "surprise": 4.17,
         "nextEarnings": "2026-08-08",
-        "fairPe": 15.27,
+        "fairPe": 15.24,
         "epsStd": 0.989,
         "history": [
             {
@@ -625,56 +625,56 @@
                 "quarter": "2026 Q2",
                 "est": 5.05,
                 "act": 5.26,
-                "surprise": 417.0,
+                "surprise": 4.17,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 5.17,
                 "act": 4.73,
-                "surprise": -848.0,
+                "surprise": -8.48,
                 "status": "Miss"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 5.73,
                 "act": 6.25,
-                "surprise": 900.0,
+                "surprise": 9.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 5.04,
                 "act": 5.17,
-                "surprise": 271.0,
+                "surprise": 2.71,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 4.72,
                 "act": 4.47,
-                "surprise": -537.0,
+                "surprise": -5.37,
                 "status": "Miss"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 4.19,
                 "act": 6.73,
-                "surprise": 6069.0,
+                "surprise": 60.69,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 5.28,
                 "act": 4.68,
-                "surprise": -1134.0,
+                "surprise": -11.34,
                 "status": "Miss"
             },
             {
                 "quarter": "2024 Q3",
                 "est": 4.77,
                 "act": 5.38,
-                "surprise": 1284.0,
+                "surprise": 12.84,
                 "status": "Beat"
             }
         ]
@@ -684,19 +684,19 @@
         "name": "JP Morgan Chase & Co.",
         "sector": "Financial Services",
         "marketIndex": "S&P 500",
-        "price": 357.52,
+        "price": 359.38,
         "profit": 34.9,
-        "pe": 15.1,
-        "pb": 2.69,
-        "ps": 5.1,
+        "pe": 15.39,
+        "pb": 2.7,
+        "ps": 0,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
-        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。它分為三個業務部門：消費者和社區銀行業務、商業和投資銀行業務以及資產和財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品和服務；企業策略和結構諮詢、股權和債務市場融資以及貸款發放和銀團服務；現金和衍生工具、風險管理解決方案",
+        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
         "estEps": 5.8,
         "actEps": 6.14,
-        "surprise": 586.0,
+        "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 15.1,
+        "fairPe": 15.39,
         "epsStd": 0.273,
         "history": [
             {
@@ -710,56 +710,56 @@
                 "quarter": "2026 Q3",
                 "est": 5.8,
                 "act": 6.14,
-                "surprise": 586.0,
+                "surprise": 5.86,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q2",
                 "est": 5.51,
                 "act": 5.94,
-                "surprise": 778.0,
+                "surprise": 7.78,
                 "status": "Beat"
             },
             {
                 "quarter": "2026 Q1",
                 "est": 4.82,
                 "act": 4.63,
-                "surprise": -391.0,
+                "surprise": -3.91,
                 "status": "Miss"
             },
             {
                 "quarter": "2025 Q4",
                 "est": 4.87,
                 "act": 5.07,
-                "surprise": 401.0,
+                "surprise": 4.01,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
                 "est": 4.48,
                 "act": 4.96,
-                "surprise": 1062.0,
+                "surprise": 10.62,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 4.64,
                 "act": 5.07,
-                "surprise": 915.0,
+                "surprise": 9.15,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 4.04,
                 "act": 4.81,
-                "surprise": 1918.0,
+                "surprise": 19.18,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 3.99,
                 "act": 4.37,
-                "surprise": 963.0,
+                "surprise": 9.63,
                 "status": "Beat"
             }
         ]
