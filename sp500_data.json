@@ -12,10 +12,32 @@
         "evEbitda": 30.74,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 1.77,
+        "actEps": 1.87,
+        "nextEarnings": "2026-08-26",
+        "history": [
+            {
+                "quarter": "2026 Q2",
+                "est": 1.77,
+                "act": 1.87,
+                "surprise": 554.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 1.54,
+                "act": 1.62,
+                "surprise": 532.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2025 Q4",
+                "est": 1.26,
+                "act": 1.3,
+                "surprise": 346.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "AAPL",
@@ -30,10 +52,32 @@
         "evEbitda": 27.01,
         "shortDesc": "Consumer Electronics",
         "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 1.89,
+        "actEps": 2.02,
+        "nextEarnings": "2026-10-29",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 1.89,
+                "act": 2.02,
+                "surprise": 674.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 1.94,
+                "act": 2.01,
+                "surprise": 346.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 2.67,
+                "act": 2.84,
+                "surprise": 625.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "MSFT",
@@ -48,10 +92,32 @@
         "evEbitda": 18.91,
         "shortDesc": "Software - Infrastructure",
         "story": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. It operates through three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. The Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. The Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 4.24,
+        "actEps": 4.74,
+        "nextEarnings": "2026-10-28",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 4.24,
+                "act": 4.74,
+                "surprise": 1181.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 4.07,
+                "act": 4.27,
+                "surprise": 490.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 3.92,
+                "act": 4.14,
+                "surprise": 569.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "AMZN",
@@ -66,10 +132,32 @@
         "evEbitda": 18.9,
         "shortDesc": "Internet Retail",
         "story": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 1.83,
+        "actEps": 5.75,
+        "nextEarnings": "2026-10-29",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 1.83,
+                "act": 5.75,
+                "surprise": 21502.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 1.64,
+                "act": 2.78,
+                "surprise": 6902.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 1.95,
+                "act": 1.95,
+                "surprise": 22.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "META",
@@ -84,10 +172,32 @@
         "evEbitda": 13.91,
         "shortDesc": "Internet Content & Information",
         "story": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 7.22,
+        "actEps": 6.18,
+        "nextEarnings": "2026-10-28",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 7.22,
+                "act": 6.18,
+                "surprise": -1442.0,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 720.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 8.22,
+                "act": 8.88,
+                "surprise": 800.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "GOOGL",
@@ -102,10 +212,32 @@
         "evEbitda": 25.78,
         "shortDesc": "Internet Content & Information",
         "story": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 2.9,
+        "actEps": 9.11,
+        "nextEarnings": "2026-10-28",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 2.9,
+                "act": 9.11,
+                "surprise": 21423.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 2.63,
+                "act": 5.11,
+                "surprise": 9430.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 2.64,
+                "act": 2.82,
+                "surprise": 701.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "TSLA",
@@ -120,10 +252,32 @@
         "evEbitda": 115.79,
         "shortDesc": "Auto Manufacturers",
         "story": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 0.54,
+        "actEps": 0.33,
+        "nextEarnings": "2026-10-21",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 0.54,
+                "act": 0.33,
+                "surprise": -3835.0,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 0.35,
+                "act": 0.41,
+                "surprise": 1715.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 0.45,
+                "act": 0.5,
+                "surprise": 1096.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "AVGO",
@@ -132,16 +286,38 @@
         "marketIndex": "NASDAQ",
         "price": 418.16,
         "profit": 38.8,
-        "pe": 65.34,
+        "pe": 69.23,
         "pb": 22.69,
         "ps": 26.36,
         "evEbitda": 45.42,
         "shortDesc": "Semiconductors",
         "story": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 2.4,
+        "actEps": 2.44,
+        "nextEarnings": "2026-09-02",
+        "history": [
+            {
+                "quarter": "2026 Q2",
+                "est": 2.4,
+                "act": 2.44,
+                "surprise": 174.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 2.02,
+                "act": 2.05,
+                "surprise": 132.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2025 Q4",
+                "est": 1.87,
+                "act": 1.95,
+                "surprise": 438.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "COST",
@@ -156,10 +332,32 @@
         "evEbitda": 30.56,
         "shortDesc": "Discount Stores",
         "story": "Costco Wholesale Corporation, together with its subsidiaries, engages in the operation of membership warehouses in the United States, Puerto Rico, Canada, Mexico, Japan, the United Kingdom, Korea, Australia, Taiwan, China, Spain, France, Iceland, New Zealand, and Sweden. It offers merchandise, including sundries, dry groceries, candies, coolers, freezers, deli, liquor, and tobacco; non-food merchandise comprising appliances, small electronics, health and beauty aids, hardware, lawn and garden, sporting goods, tires, toys and seasonal, automotive, stamps, tickets, apparel, furniture, domestics, housewares, special order kiosks, and jewelry; and fresh food, such as meat, produce, service deli, and bakery products. The company is also involved in warehouse ancillary operations, which include gasoline, pharmacies, optical, food courts, hearing-aid centers, and tire installation centers. In addition, it engages in e-commerce, business centers, travel, and other businesses. The company was formerly known as Costco Companies, Inc. and changed its name to Costco Wholesale Corporation in August 1999. Costco Wholesale Corporation was founded in 1976 and is based in Issaquah, Washington.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 4.97,
+        "actEps": 4.93,
+        "nextEarnings": "2026-09-24",
+        "history": [
+            {
+                "quarter": "2026 Q2",
+                "est": 4.97,
+                "act": 4.93,
+                "surprise": -85.0,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 4.55,
+                "act": 4.58,
+                "surprise": 71.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2025 Q4",
+                "est": 4.27,
+                "act": 4.5,
+                "surprise": 549.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "JPM",
@@ -168,16 +366,38 @@
         "marketIndex": "S&P 500",
         "price": 357.52,
         "profit": 34.9,
-        "pe": 15.33,
+        "pe": 15.1,
         "pb": 2.69,
         "ps": 0,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
         "story": "JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia Pacific, Latin America, and the Caribbean. It operates in three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, and cash management; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, payment solutions, travel services, merchant offers, lifestyle benefits, auto loans, and leases to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. It also provides investment banking, market-making, financing, custody, and securities products and services; corporate strategy and structure advisory, equity and debt market capital-raising, and loan origination and syndication services; cash and derivative instruments, risk management solutions, prime brokerage, clearing, and research; and fund services, liquidity and trading services, and data solutions products for large corporations, financial institutions, merchants, start-ups, small and midsized companies, local governments, municipalities, nonprofits, and commercial real estate clients. In addition, the company offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; retirement products and services, estate planning, lending, deposits, and investment management products to high-net-worth clients; and financial transaction processing. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 5.8,
+        "actEps": 6.14,
+        "nextEarnings": "2026-10-13",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 5.8,
+                "act": 6.14,
+                "surprise": 586.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 5.51,
+                "act": 5.94,
+                "surprise": 778.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 4.82,
+                "act": 4.63,
+                "surprise": -391.0,
+                "status": "Miss"
+            }
+        ]
     },
     {
         "ticker": "BRK-B",
@@ -192,10 +412,32 @@
         "evEbitda": -2.25,
         "shortDesc": "Insurance - Diversified",
         "story": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 5.05,
+        "actEps": 5.26,
+        "nextEarnings": "2026-08-08",
+        "history": [
+            {
+                "quarter": "2026 Q2",
+                "est": 5.05,
+                "act": 5.26,
+                "surprise": 417.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 5.17,
+                "act": 4.73,
+                "surprise": -848.0,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2025 Q4",
+                "est": 5.73,
+                "act": 6.25,
+                "surprise": 900.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "UNH",
@@ -204,16 +446,38 @@
         "marketIndex": "S&P 500",
         "price": 407.55,
         "profit": 3.1,
-        "pe": 31.25,
+        "pe": 30.67,
         "pb": 3.53,
         "ps": 0.82,
         "evEbitda": 17.0,
         "shortDesc": "Healthcare Plans",
         "story": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally. It operates through four segments: Optum Health, Optum Insight, Optum Rx; and UnitedHealthcare. The Optum Health segment provides care delivery, care management, wellness and consumer engagement, and health financial services with patients, consumers, care delivery systems, providers, employers, payers, and public-sector entities. The Optum Insight segment offers software and information products, advisory consulting arrangements, and managed services outsourcing contracts to hospital systems, physicians, health plans, public entities, life sciences companies and other organizations. The Optum Rx segment provides pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, infusion, and purchasing and clinical capabilities, as well as develops programs in the areas of step therapy, formulary management, drug adherence, and disease and drug therapy management. The UnitedHealthcare segment offers consumer-oriented health benefit plans and services for national employers, public sector employers, mid-sized employers, small businesses, and individuals; Medicaid plans, including Temporary Assistance to Needy Families; Children's Health Insurance Programs; Dual SNPs; Long-Term Services and Supports; Aged, Blind and Disabled; and other federal, state, and community health care programs. and health care benefits products and services to state programs caring for the economically disadvantaged, medically underserved, and those without the benefit of employer-funded health care coverage. UnitedHealth Group Incorporated was founded in 1974 and is based in Eden Prairie, Minnesota.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 4.92,
+        "actEps": 6.38,
+        "nextEarnings": "2026-10-27",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 4.92,
+                "act": 6.38,
+                "surprise": 2980.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 6.6,
+                "act": 7.23,
+                "surprise": 952.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 2.11,
+                "act": 2.11,
+                "surprise": 19.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "JNJ",
@@ -228,10 +492,32 @@
         "evEbitda": 18.43,
         "shortDesc": "Drug Manufacturers - General",
         "story": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 2.85,
+        "actEps": 2.9,
+        "nextEarnings": "2026-10-13",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 2.85,
+                "act": 2.9,
+                "surprise": 158.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 2.68,
+                "act": 2.7,
+                "surprise": 85.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 2.46,
+                "act": 2.46,
+                "surprise": -11.0,
+                "status": "Miss"
+            }
+        ]
     },
     {
         "ticker": "XOM",
@@ -246,10 +532,32 @@
         "evEbitda": 9.95,
         "shortDesc": "Oil & Gas Integrated",
         "story": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally. The company operates through Upstream, Energy Products, Chemical Products, and Specialty Products segments. Its Upstream segment explores for and produces crude oil and natural gas. The Energy Products segment offers fuels, aromatics, and catalysts, as well as licensing services. Its Chemical Products segment manufactures and sells olefins, polyolefins, and intermediates. The Specialty Products segment offers finished lubricants, basestocks, waxes, synthetics, elastomers, and resins. It is also involved in the manufacture, trade, transport, and sale of crude oil, natural gas, petroleum products, petrochemicals, and other specialty products; and pursuit of lower-emission and business opportunities, including carbon capture and storage, hydrogen, lower-emission fuels, Proxxima resin systems, carbon materials, low-carbon data center, and lithium. In addition, the company offers aviation fuel. It sells its products under the Exxon, Esso, and Mobil brands. The company was formerly known as Exxon Mobil Corporation and changed its name to ExxonMobil Holdings Corporation in July 2026. ExxonMobil Holdings Corporation was founded in 1870 and is headquartered in Spring, Texas.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 3.63,
+        "actEps": 4.11,
+        "nextEarnings": "2026-10-30",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 3.63,
+                "act": 4.11,
+                "surprise": 1326.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 1.01,
+                "act": 1.16,
+                "surprise": 1514.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 1.69,
+                "act": 1.71,
+                "surprise": 112.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "PG",
@@ -264,10 +572,32 @@
         "evEbitda": 15.9,
         "shortDesc": "Household & Personal Products",
         "story": "The Procter & Gamble Company provides branded consumer packaged goods worldwide. It operates through Beauty; Grooming; Health Care; Fabric & Home Care; and Baby, Feminine & Family Care segments. The company offers conditioners, shampoos, styling aids, and treatments under the Head & Shoulders, Herbal Essences, Pantene, and Rejoice brands; antiperspirants, deodorants, and personal cleansing products under the Native, Old Spice, Safeguard, and Secret brands; and facial moisturizers, cleaners, and treatments under the Olay and SK-II brands. It also provides blades, razors, shave products, appliances, and other grooming products under the Braun, Gillette, and Venus brands. In addition, the company offers toothbrushes, toothpastes, and other oral care products under the Crest and Oral-B brands; and gastrointestinal, pain relief, rapid diagnostics, respiratory, vitamins/minerals/supplements, and other personal health care products under the Metamucil, Neurobion, Pepto-Bismol, and Vicks brands. Further, it provides fabric enhancers, and laundry additives and detergents under the Ariel, Downy, Gain, and Tide brands; and air and dish care, P&G professional, and surface care under the Cascade, Dawn, Fairy, Febreze, Mr. Clean, and Swiffer brands. Additionally, the company offers baby wipes, and taped diapers and pants under the Luvs and Pampers brands; adult incontinence and menstrual care products under the Always, Always Discreet, and Tampax brands; and paper towels, tissues, and toilet papers under the Bounty, Charmin, and Puffs brands. It sells its products through mass merchandisers, social and e-commerce channels, grocery and specialty beauty stores, membership club stores, drug and department stores, distributors, wholesalers, airport duty-free and high-frequency stores, pharmacies, electronics stores, and professional channels, as well as directly to consumers. The Procter & Gamble Company was founded in 1837 and is headquartered in Cincinnati, Ohio.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 1.41,
+        "actEps": 1.43,
+        "nextEarnings": "2026-10-22",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 1.41,
+                "act": 1.43,
+                "surprise": 155.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 1.56,
+                "act": 1.59,
+                "surprise": 222.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 1.86,
+                "act": 1.88,
+                "surprise": 125.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "V",
@@ -282,10 +612,32 @@
         "evEbitda": 21.95,
         "shortDesc": "Credit Services",
         "story": "Visa Inc. operates as a payment technology company in the United States and internationally. The company operates VisaNet, a transaction processing network that enables authorization, clearing, and settlement of payment transactions. It also offers credit, debit, and prepaid card products; tap to pay, tokenization, and click to pay services; Visa Direct, a platform which facilitates money movement, enabling clients to collect, hold, convert, and send funds across its network; and issuing solutions, such as airport lounge access, dining reservations, shopping experiences, event tickets, and seller offers. In addition, the company provides acceptance solutions, an omnichannel payment integration with e-commerce platforms; risk detection and prevention solutions; and advisory and other services comprising consulting practice, proprietary analytics models, data scientists and economists, marketing services, and managed services. It provides its services under the Visa, Visa Electron, V PAY, Interlink, and PLUS brands. The company serves consumers, sellers, financial institutions, and government entities. Visa Inc. was founded in 1958 and is headquartered in San Francisco, California.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 3.23,
+        "actEps": 3.32,
+        "nextEarnings": "2026-10-27",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 3.23,
+                "act": 3.32,
+                "surprise": 276.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 3.1,
+                "act": 3.31,
+                "surprise": 679.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 3.14,
+                "act": 3.17,
+                "surprise": 88.0,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "HD",
@@ -300,10 +652,32 @@
         "evEbitda": 16.08,
         "shortDesc": "Home Improvement Retail",
         "story": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and décor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, windows, and window coverings. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, insulation installers, plumbers, painters, pool contractors, roofers, and wallboard and ceiling installers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; constructionresourcesusa.com or design-oriented surfaces, appliances, and architectural specialty products; thecompanystore.com, an online site for textiles and décor products; hdsupply.com for maintenance, repair, and operations products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, heritagepoolsupplygroup.com, and gms.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 3.41,
+        "actEps": 3.43,
+        "nextEarnings": "2026-08-18",
+        "history": [
+            {
+                "quarter": "2026 Q2",
+                "est": 3.41,
+                "act": 3.43,
+                "surprise": 69.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 2.52,
+                "act": 2.72,
+                "surprise": 780.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2025 Q4",
+                "est": 3.83,
+                "act": 3.74,
+                "surprise": -245.0,
+                "status": "Miss"
+            }
+        ]
     },
     {
         "ticker": "CVX",
@@ -318,9 +692,31 @@
         "evEbitda": 8.39,
         "shortDesc": "Oil & Gas Integrated",
         "story": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations in the United States and internationally. It operates through Upstream, Downstream, and All Other segments. The Upstream segment engages in the exploration for, development, production, and transportation of crude oil and natural gas; processing, liquefaction, transportation, and regasification of liquefied natural gas; transportation of crude oil through pipelines; transportation, storage, and marketing of natural gas; carbon capture and storage; and operation of a gas-to-liquids plant. Its Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels; transports crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufactures and markets commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives. The All Other segment engages in cash management and debt financing; insurance; real estate; and technology activities. It has operations in North America, South America, Europe, Africa, Asia, and Australia. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in May 2005. Chevron Corporation was founded in 1879 and is headquartered in Houston, Texas.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "nextEarnings": "待公佈",
-        "history": []
+        "estEps": 5.57,
+        "actEps": 6.06,
+        "nextEarnings": "2026-10-30",
+        "history": [
+            {
+                "quarter": "2026 Q3",
+                "est": 5.57,
+                "act": 6.06,
+                "surprise": 884.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 0.97,
+                "act": 1.41,
+                "surprise": 4556.0,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 1.44,
+                "act": 1.52,
+                "surprise": 520.0,
+                "status": "Beat"
+            }
+        ]
     }
 ]
