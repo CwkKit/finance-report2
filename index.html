@@ -11,6 +11,7 @@
         .glass-panel { background: rgba(22, 27, 34, 0.85); border: 1px solid #30363d; border-radius: 12px; backdrop-filter: blur(8px); }
         .badge-beat { background-color: rgba(46, 160, 67, 0.2); color: #3fb950; border: 1px solid rgba(46, 160, 67, 0.4); }
         .badge-miss { background-color: rgba(248, 81, 73, 0.2); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.4); }
+        .badge-wait { background-color: rgba(88, 166, 255, 0.1); color: #58a6ff; border: 1px solid rgba(88, 166, 255, 0.3); }
         tr.clickable-row { cursor: pointer; transition: background-color 0.15s ease; }
         tr.clickable-row:hover { background-color: #161b22; }
         th { cursor: pointer; user-select: none; transition: color 0.2s; }
@@ -38,14 +39,14 @@
             <h1 class="text-xl md:text-2xl font-bold text-white flex items-center gap-3">
                 <i class="fas fa-chart-pie text-blue-500"></i> 美股全景量化數據終端
             </h1>
-            <p class="text-xs md:text-sm text-gray-400 mt-1">即時基本面數據、P/E P/S P/B 估值模型與 SUE 盈餘動能試算</p>
+            <p class="text-xs md:text-sm text-gray-400 mt-1">即時基本面數據、P/E P/S P/B 估值模型與 SUE 盈餘動能自動試算</p>
         </div>
     </header>
 
     <!-- Main Content -->
     <div class="flex flex-col xl:flex-row gap-6 flex-grow overflow-hidden">
         
-        <!-- 左側主表區 (75%) -->
+        <!-- 左側主表區 -->
         <main class="xl:w-3/4 glass-panel flex flex-col overflow-hidden">
             <div class="p-4 border-b border-gray-700 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 
@@ -57,11 +58,11 @@
                             class="w-full pl-9 pr-4 py-1.5 bg-gray-900 border border-gray-700 rounded-lg text-sm text-white focus:outline-none focus:border-blue-500">
                     </div>
                     
-                    <!-- 分頁過濾按鈕 -->
+                    <!-- 分頁過濾按鈕 (已加回 SPY 與 NQ) -->
                     <div class="flex gap-2 flex-wrap">
-                        <button class="filter-btn active" id="btn-ALL" onclick="setMarketFilter('ALL')">全部股票</button>
-                        <button class="filter-btn" id="btn-SP500" onclick="setMarketFilter('S&P 500')">S&P 500 (SPY)</button>
-                        <button class="filter-btn" id="btn-NASDAQ" onclick="setMarketFilter('NASDAQ')">NASDAQ (NQ)</button>
+                        <button class="filter-btn active" id="btn-ALL" onclick="setMarketFilter('ALL')">全部市場</button>
+                        <button class="filter-btn" id="btn-SP500" onclick="setMarketFilter('S&P 500')">S&P 500</button>
+                        <button class="filter-btn" id="btn-NASDAQ" onclick="setMarketFilter('NASDAQ')">NASDAQ</button>
                         <button class="filter-btn" id="btn-FAV" onclick="setMarketFilter('FAV')"><i class="fas fa-star text-yellow-500 mr-1"></i>我的最愛</button>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
             </div>
         </main>
 
-        <!-- 右側經濟日曆 (25%) -->
+        <!-- 右側經濟日曆 -->
         <aside class="xl:w-1/4 glass-panel flex flex-col overflow-hidden h-[450px] xl:h-auto">
             <div class="p-4 border-b border-gray-700">
                 <h2 class="text-base font-semibold text-white"><i class="far fa-calendar-alt mr-2 text-blue-400"></i>美國宏觀經濟日曆</h2>
@@ -150,16 +151,16 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <!-- 左欄 -->
                     <div class="flex flex-col gap-6">
-                        <div class="bg-gray-800/30 p-4 rounded-lg border border-gray-700/60">
-                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2"><i class="fas fa-building mr-2"></i>業務介紹</h3>
-                            <div class="max-h-40 overflow-y-auto pr-2 text-xs text-gray-300 leading-relaxed" id="modalStory"></div>
+                        <div class="bg-gray-800/30 p-4 rounded-lg border border-gray-700/60 h-40 flex flex-col">
+                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2 flex-shrink-0"><i class="fas fa-building mr-2"></i>業務介紹</h3>
+                            <div class="overflow-y-auto pr-2 text-xs text-gray-300 leading-relaxed flex-grow" id="modalStory"></div>
                         </div>
                         
-                        <div>
-                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2"><i class="fas fa-history mr-2"></i>歷史財報紀錄</h3>
-                            <div class="overflow-x-auto rounded border border-gray-700 max-h-48 overflow-y-auto">
-                                <table class="w-full text-left text-xs">
-                                    <thead class="bg-gray-800 text-gray-400 sticky top-0">
+                        <div class="flex flex-col h-48">
+                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2 flex-shrink-0"><i class="fas fa-history mr-2"></i>歷史與預測財報</h3>
+                            <div class="overflow-x-auto overflow-y-auto rounded border border-gray-700 flex-grow">
+                                <table class="w-full text-left text-xs sticky top-0">
+                                    <thead class="bg-gray-800 text-gray-400 sticky top-0 z-10">
                                         <tr>
                                             <th class="px-3 py-2">季度</th>
                                             <th class="px-3 py-2 text-right">預期 EPS</th>
@@ -174,13 +175,13 @@
                         </div>
                     </div>
 
-                    <!-- 右欄：估值模型 -->
+                    <!-- 右欄：估值模型 (數值已自動帶入) -->
                     <div class="flex flex-col gap-4">
                         <div class="bg-gray-900 border border-gray-700 rounded-lg p-4">
                             <h3 class="text-blue-400 font-bold mb-3 flex items-center text-sm"><i class="fas fa-calculator mr-2"></i>價值估值分析 (合理價試算)</h3>
                             <div class="grid grid-cols-2 gap-3 mb-3">
                                 <div><label class="text-xs text-gray-500">預估未來 EPS</label><input type="number" id="calcEps" class="calc-input" step="0.01"></div>
-                                <div><label class="text-xs text-gray-500">合理 P/E</label><input type="number" id="calcPe" class="calc-input" value="15"></div>
+                                <div><label class="text-xs text-gray-500">合理 P/E (已帶入)</label><input type="number" id="calcPe" class="calc-input" step="0.01"></div>
                             </div>
                             <button onclick="calcValuation()" class="calc-btn mb-2">計算合理股價與安全邊際</button>
                             <div id="valResult" class="text-xs p-3 bg-gray-800 rounded border border-gray-700 hidden"></div>
@@ -191,7 +192,7 @@
                             <div class="grid grid-cols-3 gap-3 mb-3">
                                 <div><label class="text-xs text-gray-500">預期 EPS</label><input type="number" id="peadEst" class="calc-input" step="0.01"></div>
                                 <div><label class="text-xs text-gray-500">實際 EPS</label><input type="number" id="peadAct" class="calc-input" step="0.01"></div>
-                                <div><label class="text-xs text-gray-500">標準差</label><input type="number" id="peadStd" class="calc-input" value="0.1" step="0.01"></div>
+                                <div><label class="text-xs text-gray-500">8季標準差 (已帶入)</label><input type="number" id="peadStd" class="calc-input" step="0.01"></div>
                             </div>
                             <button onclick="calcPead()" class="calc-btn bg-purple-600 hover:bg-purple-500 mb-2">計算 SUE 爆發分數</button>
                             <div id="peadResult" class="text-xs p-3 bg-gray-800 rounded border border-gray-700 hidden"></div>
@@ -208,6 +209,9 @@
         let currentMarketFilter = 'ALL';
         let favoriteStocks = JSON.parse(localStorage.getItem('favStocks')) || [];
 
+        // 啟動時請確認搜尋框是空的
+        document.getElementById('searchInput').value = '';
+
         fetch('sp500_data.json')
             .then(response => response.json())
             .then(data => {
@@ -215,7 +219,7 @@
                 filterTable();
             })
             .catch(error => {
-                document.getElementById('tableBody').innerHTML = '<tr><td colspan="7" class="px-6 py-10 text-center text-red-400">數據更新中，請稍後刷頁...</td></tr>';
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="7" class="px-6 py-10 text-center text-red-400">數據更新中，請確認已執行 GitHub Actions 並重新整理頁面。</td></tr>';
             });
 
         let currentSortColumn = '';
@@ -229,6 +233,7 @@
             filterTable();
         }
 
+        // 修改這裡：支援 SPY 與 NQ 按鈕
         function setMarketFilter(market) {
             currentMarketFilter = market;
             document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
@@ -273,7 +278,6 @@
                 const isFav = favoriteStocks.includes(item.ticker);
                 const starClass = isFav ? 'fas fa-star text-yellow-500' : 'far fa-star text-gray-600';
 
-                // 指數標籤
                 let indexTag = '';
                 if(item.marketIndex === 'NASDAQ') indexTag = `<span class="text-[10px] bg-purple-900/40 text-purple-400 border border-purple-800/60 px-1.5 py-0.5 rounded ml-2">NQ</span>`;
                 else if(item.marketIndex === 'S&P 500') indexTag = `<span class="text-[10px] bg-blue-900/40 text-blue-400 border border-blue-800/60 px-1.5 py-0.5 rounded ml-2">SPY</span>`;
@@ -323,31 +327,45 @@
             document.getElementById('modalPs').innerText = stock.ps || 'N/A';
             document.getElementById('modalPb').innerText = stock.pb || 'N/A';
             document.getElementById('modalEv').innerText = stock.evEbitda || 'N/A';
-
             currentModalPrice = stock.price;
-            document.getElementById('calcEps').value = stock.actEps || '';
-            document.getElementById('calcPe').value = stock.pe > 0 ? Math.min(stock.pe, 25) : 15;
-            document.getElementById('valResult').classList.add('hidden');
 
+            // ★ 自動帶入 Python 後端算好的數值 ★
+            document.getElementById('calcEps').value = stock.actEps || '';
+            document.getElementById('calcPe').value = stock.fairPe || 15;
             document.getElementById('peadEst').value = stock.estEps || '';
             document.getElementById('peadAct').value = stock.actEps || '';
+            document.getElementById('peadStd').value = stock.epsStd || 0.1;
+            
+            document.getElementById('valResult').classList.add('hidden');
             document.getElementById('peadResult').classList.add('hidden');
 
             const histBody = document.getElementById('modalHistoryTable');
             histBody.innerHTML = '';
             if(stock.history && stock.history.length > 0) {
                 stock.history.forEach(h => {
-                    let isBeat = h.surprise > 0;
-                    let colorClass = isBeat ? 'text-green-400' : 'text-red-400';
-                    histBody.innerHTML += `
-                        <tr class="hover:bg-gray-800/40">
-                            <td class="px-3 py-2 text-gray-300">${h.quarter}</td>
-                            <td class="px-3 py-2 text-right text-gray-500">$${h.est}</td>
-                            <td class="px-3 py-2 text-right text-white font-bold">$${h.act}</td>
-                            <td class="px-3 py-2 text-right ${colorClass}">${h.surprise > 0 ? '+':''}${h.surprise}%</td>
-                            <td class="px-3 py-2 text-center text-xs ${colorClass}">${h.status}</td>
-                        </tr>
-                    `;
+                    if (h.status === "等待公佈") {
+                        histBody.innerHTML += `
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="px-3 py-2 text-blue-400">${h.quarter}</td>
+                                <td class="px-3 py-2 text-right text-gray-400 font-bold">$${h.est !== "-" ? h.est : "N/A"}</td>
+                                <td class="px-3 py-2 text-right text-gray-600">-</td>
+                                <td class="px-3 py-2 text-right text-gray-600">-</td>
+                                <td class="px-3 py-2 text-center"><span class="badge-wait text-[10px] px-2 py-0.5 rounded">等待公佈</span></td>
+                            </tr>
+                        `;
+                    } else {
+                        let isBeat = h.surprise > 0;
+                        let colorClass = isBeat ? 'text-green-400' : 'text-red-400';
+                        histBody.innerHTML += `
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="px-3 py-2 text-gray-300">${h.quarter}</td>
+                                <td class="px-3 py-2 text-right text-gray-500">$${h.est}</td>
+                                <td class="px-3 py-2 text-right text-white font-bold">$${h.act}</td>
+                                <td class="px-3 py-2 text-right ${colorClass}">${h.surprise > 0 ? '+':''}${h.surprise}%</td>
+                                <td class="px-3 py-2 text-center text-xs ${colorClass}">${h.status}</td>
+                            </tr>
+                        `;
+                    }
                 });
             } else {
                 histBody.innerHTML = '<tr><td colspan="5" class="px-3 py-4 text-center text-gray-500">無歷史數據</td></tr>';
