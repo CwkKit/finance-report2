@@ -2,7 +2,7 @@ name: 自動更新美股數據
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *' # 設定為每小時的第 0 分鐘自動爬取一次
   workflow_dispatch:
 
 jobs:
@@ -21,5 +21,5 @@ jobs:
           git config --global user.name 'GitHub Action Bot'
           git config --global user.email 'action@github.com'
           git add sp500_data.json
-          git commit -m "更新數據" || exit 0
+          git commit -m "每小時自動更新全市場數據" || exit 0
           git push
