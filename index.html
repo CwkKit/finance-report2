@@ -3,227 +3,328 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S&P 500 Pro Screener</title>
+    <title>美股 S&P 500 全景儀表板 (2026 即時版)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        :root { --tv-bg: #0e1015; --tv-panel: #131722; --tv-border: #2a2e39; --tv-text: #d1d4dc; --tv-text-muted: #787b86; --tv-up: #26a69a; --tv-down: #ef5350; --tv-hover: #1e222d; }
-        body { background-color: var(--tv-bg); color: var(--tv-text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-        .tv-panel { background-color: var(--tv-panel); border: 1px solid var(--tv-border); }
-        .tv-border { border-color: var(--tv-border); }
-        .tv-up { color: var(--tv-up); }
-        .tv-down { color: var(--tv-down); }
-        .tv-bg-up { background-color: rgba(38, 166, 154, 0.15); border: 1px solid rgba(38, 166, 154, 0.3); color: var(--tv-up); }
-        .tv-bg-down { background-color: rgba(239, 83, 80, 0.15); border: 1px solid rgba(239, 83, 80, 0.3); color: var(--tv-down); }
-        th { color: var(--tv-text-muted); cursor: pointer; user-select: none; transition: color 0.2s; }
-        th:hover { color: #fff; }
-        tbody tr { transition: background-color 0.15s ease; cursor: pointer; border-bottom: 1px solid var(--tv-border); }
-        tbody tr:hover { background-color: var(--tv-hover); }
-        #detail-modal { opacity: 0; pointer-events: none; transition: opacity 0.2s ease-in-out; }
-        #detail-modal.active { opacity: 1; pointer-events: auto; }
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: var(--tv-bg); }
-        ::-webkit-scrollbar-thumb { background: var(--tv-border); border-radius: 3px; }
+        body { background-color: #0b0f17; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; }
+        .glass-panel { background: rgba(22, 27, 34, 0.85); border: 1px solid #30363d; border-radius: 12px; backdrop-filter: blur(8px); }
+        .badge-beat { background-color: rgba(46, 160, 67, 0.2); color: #3fb950; border: 1px solid rgba(46, 160, 67, 0.4); }
+        .badge-miss { background-color: rgba(248, 81, 73, 0.2); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.4); }
+        .tab-btn.active { border-bottom: 2px solid #58a6ff; color: #58a6ff; background: rgba(88, 166, 255, 0.1); }
+        tr.clickable-row { cursor: pointer; transition: background-color 0.15s ease; }
+        tr.clickable-row:hover { background-color: #161b22; }
+        th { cursor: pointer; user-select: none; transition: color 0.2s; }
+        th:hover { color: #58a6ff; }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #0b0f17; }
+        ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #58a6ff; }
     </style>
 </head>
-<body class="min-h-screen flex flex-col p-4 md:p-6 gap-6">
-    <header class="flex justify-between items-center tv-panel rounded-lg p-5">
+<body class="p-4 md:p-6 gap-4">
+
+    <!-- Header -->
+    <header class="glass-panel p-5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 flex-shrink-0">
         <div>
-            <h1 class="text-2xl font-bold text-white tracking-wide"><i class="fas fa-layer-group text-[#26a69a] mr-3"></i>S&P 500 Custom Screener</h1>
-            <p class="text-sm text-[#787b86] mt-1 font-mono">Real-time Quantitative Analysis Dashboard</p>
-        </div>
-        <div class="text-right">
-            <div id="clock" class="text-lg font-mono text-[#d1d4dc]"></div>
-            <div class="text-xs text-[#787b86] mt-1"><i class="fas fa-circle text-[#26a69a] text-[10px] mr-1 blink"></i>Market Open</div>
+            <h1 class="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+                <i class="fas fa-globe-americas text-blue-500"></i> S&P 500 企業財報與全市場儀表板
+            </h1>
+            <p class="text-sm text-gray-400 mt-1">整合 TradingView 即時 500 強數據、EPS/利潤表現與企業深度護城河分析 (2026 最新版)</p>
         </div>
     </header>
 
-    <div class="grid grid-cols-1 xl:grid-cols-4 gap-6 flex-grow">
-        <main class="xl:col-span-3 tv-panel rounded-lg flex flex-col overflow-hidden">
-            <div class="p-4 border-b tv-border flex justify-between items-center">
-                <h2 class="text-lg font-semibold text-white">估值篩選主表 (Valuation Screener)</h2>
-                <span class="text-xs text-[#787b86] bg-[#1e222d] px-2 py-1 rounded">點擊表頭進行排序</span>
-            </div>
-            <div class="overflow-x-auto flex-grow">
-                <table class="w-full text-left text-sm whitespace-nowrap">
-                    <thead class="text-xs uppercase bg-[#0e1015] sticky top-0 z-10">
-                        <tr>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('ticker')">Ticker <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('price')">Price <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('marketCap')">Mkt Cap (B) <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('pe')">P/E (TTM) <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('ps')">P/S <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('eps')">EPS <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('margin')">Margin (%) <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('evEbitda')">EV/EBITDA <i class="fas fa-sort ml-1"></i></th>
-                            <th class="px-6 py-4 font-semibold" onclick="sortTable('nextEarnings')">Next Earnings <i class="fas fa-sort ml-1"></i></th>
-                        </tr>
-                    </thead>
-                    <tbody id="screener-body" class="font-mono">
-                        <tr><td colspan="9" class="px-6 py-10 text-center text-[#787b86]">正在從伺服器載入最新數據...</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </main>
-
-        <aside class="tv-panel rounded-lg overflow-hidden flex flex-col h-[600px] xl:h-auto">
-            <div class="p-4 border-b tv-border">
-                <h2 class="text-lg font-semibold text-white"><i class="far fa-calendar-alt mr-2 text-[#26a69a]"></i>宏觀經濟日曆</h2>
-            </div>
-            <div class="flex-grow p-1">
-                <div class="tradingview-widget-container" style="height:100%;width:100%">
-                  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
-                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
-                  { "colorTheme": "dark", "isTransparent": true, "width": "100%", "height": "100%", "locale": "tw", "importanceFilter": "0,1", "countryFilter": "us" }
-                  </script>
-                </div>
-            </div>
-        </aside>
+    <!-- Tabs -->
+    <div class="flex gap-2 border-b border-gray-700 pb-0 px-2 flex-shrink-0">
+        <!-- 預設開啟 TradingView 全部標的 -->
+        <button onclick="switchTab('tv-screener')" id="tab-tv-screener" class="tab-btn active px-5 py-3 font-medium hover:text-white transition rounded-t-lg">
+            <i class="fas fa-list-ol mr-2"></i>即時美股 500 強 (含 EPS & 淨利潤)
+        </button>
+        <button onclick="switchTab('custom-story')" id="tab-custom-story" class="tab-btn px-5 py-3 font-medium hover:text-white transition rounded-t-lg">
+            <i class="fas fa-book-open mr-2"></i>深度財報與企業故事 (重點解析)
+        </button>
+        <button onclick="switchTab('calendar')" id="tab-calendar" class="tab-btn px-5 py-3 font-medium hover:text-white transition rounded-t-lg">
+            <i class="far fa-calendar-check mr-2"></i>美國宏觀數據日曆
+        </button>
     </div>
 
-    <!-- Detail Modal -->
-    <div id="detail-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-        <div class="tv-panel rounded-xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative border tv-border">
-            <button onclick="closeModal()" class="absolute top-5 right-5 text-[#787b86] hover:text-white transition"><i class="fas fa-times text-xl"></i></button>
-            <div class="p-8">
-                <div class="flex items-center gap-4 border-b tv-border pb-6 mb-6">
-                    <div id="modal-logo" class="w-12 h-12 rounded-full bg-[#1e222d] flex items-center justify-center text-xl font-bold text-white border tv-border"></div>
-                    <div>
-                        <h2 id="modal-ticker" class="text-3xl font-bold text-white tracking-wide"></h2>
-                        <p id="modal-name" class="text-[#787b86]"></p>
-                    </div>
-                </div>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                    <div class="bg-[#1e222d] rounded-lg p-4 border tv-border">
-                        <div class="text-[#787b86] text-xs uppercase mb-1">P/E (TTM)</div>
-                        <div id="modal-pe" class="text-2xl font-mono text-white"></div>
-                    </div>
-                    <div class="bg-[#1e222d] rounded-lg p-4 border tv-border">
-                        <div class="text-[#787b86] text-xs uppercase mb-1">EV/EBITDA</div>
-                        <div id="modal-ev" class="text-2xl font-mono text-white"></div>
-                    </div>
-                    <div class="bg-[#1e222d] rounded-lg p-4 border tv-border md:col-span-2">
-                        <div class="text-[#787b86] text-xs uppercase mb-1">下次財報日 (Next Earnings)</div>
-                        <div class="flex items-center gap-3">
-                            <div id="modal-date" class="text-2xl font-mono text-white"></div>
-                            <span class="text-xs bg-[#26a69a]/20 text-[#26a69a] px-2 py-1 rounded border border-[#26a69a]/30"><i class="fas fa-stopwatch mr-1"></i>即將到來</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-8">
-                    <h3 class="text-lg font-semibold text-white mb-3 flex items-center"><i class="fas fa-chess-rook text-[#26a69a] mr-2"></i>企業護城河 & 近期催化劑</h3>
-                    <div class="bg-[#1e222d] rounded-lg p-5 border tv-border leading-relaxed text-sm text-[#d1d4dc]" id="modal-moat"></div>
-                </div>
+    <!-- TAB 1: TradingView Screener (解決全部 500 家與即時 Profit/EPS 需求) -->
+    <div id="tv-screener" class="tab-content flex-grow glass-panel overflow-hidden">
+        <div class="tradingview-widget-container" style="height:100%;width:100%">
+          <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+          {
+          "width": "100%",
+          "height": "100%",
+          "defaultColumn": "valuation",
+          "defaultScreen": "most_capitalized",
+          "market": "america",
+          "showToolbar": true,
+          "colorTheme": "dark",
+          "locale": "tw"
+          }
+          </script>
+          <div class="text-center text-xs text-gray-500 mt-1">
+            提示：上方工具列可切換「績效」、「損益表(包含利潤 Profit)」來查看 500 大企業的所有即時財務數據。
+          </div>
+        </div>
+    </div>
+
+    <!-- TAB 2: 自訂財報表格與故事 (含 2026 最新時間與 Profit) -->
+    <div id="custom-story" class="tab-content flex-grow flex flex-col gap-4 hidden overflow-hidden">
+        <div class="glass-panel p-4 flex justify-between items-center flex-shrink-0">
+            <div class="relative w-full md:w-96">
+                <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="搜尋代碼、公司名稱或板塊..." 
+                    class="w-full pl-10 pr-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-sm text-white focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="text-xs text-blue-300 bg-blue-900/30 px-3 py-1 rounded border border-blue-800/50 hidden md:block">
+                <i class="fas fa-info-circle mr-1"></i> 資料由 GitHub Actions 自動抓取最新實時數據
+            </div>
+        </div>
+
+        <div class="glass-panel overflow-y-auto flex-grow">
+            <table class="w-full text-left text-sm whitespace-nowrap relative">
+                <thead class="text-xs uppercase bg-gray-800 text-gray-400 sticky top-0 z-10 shadow-md">
+                    <tr>
+                        <th class="px-6 py-4" onclick="sortTable('ticker')">代碼 <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4" onclick="sortTable('name')">公司名稱 <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4" onclick="sortTable('sector')">板塊 <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4 text-right" onclick="sortTable('profit', true)">淨利率 (Profit) <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4 text-right" onclick="sortTable('estEps', true)">預期 EPS <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4 text-right" onclick="sortTable('actEps', true)">實際 EPS <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4 text-center" onclick="sortTable('surprise', true)">上季財報表現 <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-4 text-center" onclick="sortTable('nextEarnings')">下次財報日 <i class="fas fa-sort ml-1"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" class="divide-y divide-gray-800">
+                    <!-- JS 動態渲染 -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 3: CPI / 宏觀日曆 -->
+    <div id="calendar" class="tab-content glass-panel p-2 flex-grow hidden">
+        <div class="tradingview-widget-container" style="height:100%;width:100%">
+          <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+          {
+          "colorTheme": "dark",
+          "isTransparent": true,
+          "width": "100%",
+          "height": "100%",
+          "locale": "tw",
+          "importanceFilter": "0,1",
+          "countryFilter": "us"
+          }
+          </script>
+        </div>
+    </div>
+
+    <!-- Modal: 點擊顯示故事與歷史財報 -->
+    <div id="detailModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4 z-50">
+        <div class="glass-panel bg-gray-900 border border-gray-700 w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-xl p-6 relative flex flex-col gap-6">
+            
+            <div class="flex justify-between items-start border-b border-gray-700 pb-4">
                 <div>
-                    <h3 class="text-lg font-semibold text-white mb-3 flex items-center"><i class="fas fa-history text-[#26a69a] mr-2"></i>歷史財報表現 (Earnings History)</h3>
-                    <div class="overflow-x-auto rounded-lg border tv-border">
-                        <table class="w-full text-left text-sm whitespace-nowrap">
-                            <thead class="text-xs uppercase bg-[#0e1015] text-[#787b86]">
-                                <tr>
-                                    <th class="px-6 py-3 font-semibold">季度 (Quarter)</th>
-                                    <th class="px-6 py-3 font-semibold">預期 EPS (Est)</th>
-                                    <th class="px-6 py-3 font-semibold">實際 EPS (Actual)</th>
-                                    <th class="px-6 py-3 font-semibold">驚喜度 (Surprise)</th>
-                                    <th class="px-6 py-3 font-semibold text-right">狀態 (Status)</th>
-                                </tr>
-                            </thead>
-                            <tbody id="modal-history-body" class="font-mono bg-[#1e222d] divide-y tv-border"></tbody>
-                        </table>
+                    <div class="flex items-center gap-3">
+                        <h2 id="modalTicker" class="text-3xl font-bold text-blue-400"></h2>
+                        <span id="modalName" class="text-xl text-gray-200"></span>
+                        <span id="modalSector" class="bg-gray-800 border border-gray-700 text-xs px-2.5 py-1 rounded text-gray-300"></span>
                     </div>
+                    <p id="modalShortDesc" class="text-sm text-gray-400 mt-2"></p>
+                </div>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-white text-3xl font-bold p-1 leading-none">&times;</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Data Card -->
+                <div class="bg-gray-800/50 p-4 rounded-lg border border-gray-700/60 flex flex-col justify-around">
+                    <div>
+                        <div class="text-xs text-gray-400 uppercase">淨利潤率 (Profit Margin)</div>
+                        <div id="modalProfit" class="text-2xl font-bold text-green-400 mt-1"></div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="text-xs text-gray-400 uppercase">預計下次財報日</div>
+                        <div id="modalNextEarnings" class="text-xl font-semibold text-purple-400 mt-1"></div>
+                    </div>
+                </div>
+                <!-- Story Card -->
+                <div class="md:col-span-2 bg-gray-800/30 p-5 rounded-lg border border-gray-700/60">
+                    <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                        <i class="fas fa-book-open text-blue-400"></i> 企業故事與護城河
+                    </h3>
+                    <p id="modalStory" class="text-sm text-gray-300 leading-relaxed whitespace-pre-line"></p>
+                </div>
+            </div>
+
+            <!-- Historical Earnings Table -->
+            <div>
+                <h3 class="text-lg font-bold text-white mb-3 flex items-center gap-2">
+                    <i class="fas fa-history text-yellow-400"></i> 歷史財報紀錄 (預期 vs 實際)
+                </h3>
+                <div class="overflow-x-auto rounded border border-gray-700">
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-gray-800 text-xs uppercase text-gray-400">
+                            <tr>
+                                <th class="px-4 py-3">季度</th>
+                                <th class="px-4 py-3 text-right">預期 EPS ($)</th>
+                                <th class="px-4 py-3 text-right">實際 EPS ($)</th>
+                                <th class="px-4 py-3 text-right">驚喜度 (Surprise %)</th>
+                                <th class="px-4 py-3 text-center">狀態</th>
+                            </tr>
+                        </thead>
+                        <tbody id="modalHistoryTable" class="divide-y divide-gray-800 bg-gray-900/60">
+                            <!-- JS 注入 -->
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        setInterval(() => {
-            document.getElementById('clock').innerText = new Date().toLocaleString('zh-TW', { hour12: false });
-        }, 1000);
-        document.getElementById('clock').innerText = new Date().toLocaleString('zh-TW', { hour12: false });
+        // Tab 切換邏輯
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.remove('hidden');
+            document.getElementById('tab-' + tabId).classList.add('active');
+        }
 
-        let stockData = [];
+        let stocksData = [];
 
-        // 自動去讀取 Python 抓下來的真實數據
+        // 讀取 Python 抓取下來的資料庫 JSON
         fetch('sp500_data.json')
             .then(response => response.json())
             .then(data => {
-                stockData = data;
-                renderTable(stockData);
+                stocksData = data;
+                renderTable(stocksData);
             })
             .catch(error => {
-                document.getElementById('screener-body').innerHTML = '<tr><td colspan="9" class="px-6 py-10 text-center text-[#ef5350]">請先執行 GitHub Action 產生數據庫 (sp500_data.json)</td></tr>';
+                console.error('資料載入失敗:', error);
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="8" class="px-6 py-10 text-center text-red-400">正在等待 GitHub Actions 產生最新數據庫...請稍候再重新整理。</td></tr>';
             });
 
+        let currentSortColumn = '';
+        let isAscending = true;
+
+        // 渲染主表格
         function renderTable(data) {
-            const tbody = document.getElementById('screener-body');
+            const tbody = document.getElementById('tableBody');
             tbody.innerHTML = '';
-            data.forEach((stock) => {
+
+            data.forEach(item => {
+                // 判斷 Beat / Miss
+                let statusBadge = '';
+                if (item.surprise > 0) {
+                    statusBadge = `<span class="badge-beat text-xs font-semibold px-2.5 py-1 rounded-full"><i class="fas fa-arrow-up mr-1"></i>Beat (+${item.surprise}%)</span>`;
+                } else if (item.surprise < 0) {
+                    statusBadge = `<span class="badge-miss text-xs font-semibold px-2.5 py-1 rounded-full"><i class="fas fa-arrow-down mr-1"></i>Miss (${item.surprise}%)</span>`;
+                } else {
+                    statusBadge = `<span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-1 rounded-full">符合預期</span>`;
+                }
+
                 const tr = document.createElement('tr');
-                tr.onclick = () => openModal(stock);
+                tr.className = 'clickable-row border-b border-gray-800/60';
+                tr.onclick = () => openModal(item);
+
                 tr.innerHTML = `
-                    <td class="px-6 py-4 flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-[#1e222d] flex items-center justify-center text-xs font-bold text-white border tv-border">${stock.ticker.charAt(0)}</div>
-                        <div class="font-sans font-bold text-white tracking-wide">${stock.ticker}</div>
-                    </td>
-                    <td class="px-6 py-4 text-white">$${stock.price.toFixed(2)}</td>
-                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.marketCap}</td>
-                    <td class="px-6 py-4 ${stock.pe < 20 ? 'tv-up' : (stock.pe > 50 ? 'tv-down' : 'text-[#d1d4dc]')}">${stock.pe}</td>
-                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.ps}</td>
-                    <td class="px-6 py-4 text-white">$${stock.eps}</td>
-                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.margin}%</td>
-                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.evEbitda}</td>
-                    <td class="px-6 py-4 text-[#787b86] font-sans text-xs">${stock.nextEarnings}</td>
+                    <td class="px-6 py-4 font-bold text-blue-400">${item.ticker}</td>
+                    <td class="px-6 py-4 font-medium text-gray-200">${item.name}</td>
+                    <td class="px-6 py-4"><span class="bg-gray-800 text-gray-300 text-xs px-2 py-1 rounded">${item.sector}</span></td>
+                    <td class="px-6 py-4 text-right text-green-300 font-mono font-bold">${item.profit.toFixed(1)}%</td>
+                    <td class="px-6 py-4 text-right text-gray-400 font-mono">$${item.estEps.toFixed(2)}</td>
+                    <td class="px-6 py-4 text-right text-white font-mono font-bold">$${item.actEps.toFixed(2)}</td>
+                    <td class="px-6 py-4 text-center">${statusBadge}</td>
+                    <td class="px-6 py-4 text-center text-purple-400 font-medium">${item.nextEarnings}</td>
                 `;
                 tbody.appendChild(tr);
             });
         }
 
-        let currentSortCol = '';
-        let isAsc = true;
-        function sortTable(column) {
-            if (currentSortCol === column) isAsc = !isAsc;
-            else { currentSortCol = column; isAsc = true; }
-            stockData.sort((a, b) => {
-                let valA = a[column], valB = b[column];
-                if (typeof valA === 'string') return isAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
-                else return isAsc ? valA - valB : valB - valA;
-            });
-            renderTable(stockData);
+        // 搜尋過濾
+        function filterTable() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = stocksData.filter(stock => 
+                stock.ticker.toLowerCase().includes(query) ||
+                stock.name.toLowerCase().includes(query) ||
+                stock.sector.toLowerCase().includes(query)
+            );
+            renderTable(filtered);
         }
 
+        // 排序
+        function sortTable(column, isNumeric = false) {
+            if (currentSortColumn === column) {
+                isAscending = !isAscending;
+            } else {
+                currentSortColumn = column;
+                isAscending = true;
+            }
+
+            stocksData.sort((a, b) => {
+                let valA = a[column];
+                let valB = b[column];
+                if (isNumeric) {
+                    return isAscending ? valA - valB : valB - valA;
+                } else {
+                    return isAscending ? String(valA).localeCompare(String(valB)) : String(valB).localeCompare(String(valA));
+                }
+            });
+            renderTable(stocksData);
+        }
+
+        // 開啟 Modal 並渲染故事與歷史數據
         function openModal(stock) {
-            document.getElementById('modal-logo').innerText = stock.ticker.charAt(0);
-            document.getElementById('modal-ticker').innerText = stock.ticker;
-            document.getElementById('modal-name').innerText = stock.name;
-            document.getElementById('modal-pe').innerText = stock.pe;
-            document.getElementById('modal-ev').innerText = stock.evEbitda;
-            document.getElementById('modal-date').innerText = stock.nextEarnings;
-            document.getElementById('modal-moat').innerText = stock.moat;
+            document.getElementById('modalTicker').innerText = stock.ticker;
+            document.getElementById('modalName').innerText = stock.name;
+            document.getElementById('modalSector').innerText = stock.sector;
+            document.getElementById('modalShortDesc').innerText = stock.shortDesc;
+            document.getElementById('modalProfit').innerText = stock.profit.toFixed(1) + '%';
+            document.getElementById('modalNextEarnings').innerText = stock.nextEarnings;
+            document.getElementById('modalStory').innerText = stock.story;
 
-            const historyBody = document.getElementById('modal-history-body');
-            historyBody.innerHTML = '';
-            stock.history.forEach(h => {
-                const statusBadge = h.beat 
-                    ? `<span class="tv-bg-up px-2 py-1 rounded text-xs font-sans tracking-wide">BEAT</span>` 
-                    : `<span class="tv-bg-down px-2 py-1 rounded text-xs font-sans tracking-wide">MISS</span>`;
-                const surpriseColor = h.surprise > 0 ? 'tv-up' : 'tv-down';
-                const sign = h.surprise > 0 ? '+' : '';
+            const histBody = document.getElementById('modalHistoryTable');
+            histBody.innerHTML = '';
+            
+            // 確保有歷史數據才渲染
+            if(stock.history && stock.history.length > 0) {
+                stock.history.forEach(h => {
+                    let isBeat = h.surprise > 0;
+                    let colorClass = isBeat ? 'text-green-400' : 'text-red-400';
+                    let badgeClass = isBeat ? 'badge-beat' : 'badge-miss';
+                    let sign = isBeat ? '+' : '';
+                    
+                    histBody.innerHTML += `
+                        <tr class="hover:bg-gray-800/40">
+                            <td class="px-4 py-3 font-semibold text-gray-200">${h.quarter}</td>
+                            <td class="px-4 py-3 text-right font-mono text-gray-400">$${h.est.toFixed(2)}</td>
+                            <td class="px-4 py-3 text-right font-mono font-bold text-white">$${h.act.toFixed(2)}</td>
+                            <td class="px-4 py-3 text-right font-mono ${colorClass}">${sign}${h.surprise.toFixed(2)}%</td>
+                            <td class="px-4 py-3 text-center">
+                                <span class="${badgeClass} text-xs px-2 py-0.5 rounded">${h.status}</span>
+                            </td>
+                        </tr>
+                    `;
+                });
+            } else {
+                histBody.innerHTML = '<tr><td colspan="5" class="px-4 py-6 text-center text-gray-500">暫無近期財報歷史數據</td></tr>';
+            }
 
-                historyBody.innerHTML += `
-                    <tr>
-                        <td class="px-6 py-4 text-[#d1d4dc] font-sans">${h.quarter}</td>
-                        <td class="px-6 py-4 text-[#787b86]">$${h.est.toFixed(2)}</td>
-                        <td class="px-6 py-4 text-white">$${h.actual.toFixed(2)}</td>
-                        <td class="px-6 py-4 ${surpriseColor}">${sign}${h.surprise}%</td>
-                        <td class="px-6 py-4 text-right">${statusBadge}</td>
-                    </tr>
-                `;
-            });
-            document.getElementById('detail-modal').classList.add('active');
+            document.getElementById('detailModal').classList.remove('hidden');
         }
 
-        function closeModal() { document.getElementById('detail-modal').classList.remove('active'); }
-        document.getElementById('detail-modal').addEventListener('click', function(e) { if(e.target === this) closeModal(); });
+        // 關閉 Modal
+        function closeModal() {
+            document.getElementById('detailModal').classList.add('hidden');
+        }
+
+        // 按 ESC 關閉 Modal
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
     </script>
 </body>
 </html>
