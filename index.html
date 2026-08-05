@@ -11,24 +11,28 @@
         .glass-panel { background: rgba(22, 27, 34, 0.85); border: 1px solid #30363d; border-radius: 12px; backdrop-filter: blur(8px); }
         .badge-beat { background-color: rgba(46, 160, 67, 0.2); color: #3fb950; border: 1px solid rgba(46, 160, 67, 0.4); }
         .badge-miss { background-color: rgba(248, 81, 73, 0.2); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.4); }
+        .badge-wait { background-color: rgba(88, 166, 255, 0.1); color: #58a6ff; border: 1px solid rgba(88, 166, 255, 0.3); }
         tr.clickable-row { cursor: pointer; transition: background-color 0.15s ease; }
         tr.clickable-row:hover { background-color: #161b22; }
         th { cursor: pointer; user-select: none; transition: color 0.2s; }
         th:hover { color: #58a6ff; }
+        
+        /* 滾動條美化 */
         ::-webkit-scrollbar { width: 8px; height: 8px; }
         ::-webkit-scrollbar-track { background: #0b0f17; }
         ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #58a6ff; }
+        
+        /* 專門給故事框用的滾動條 */
+        .story-scroll::-webkit-scrollbar-track { background: transparent; }
+        
         .calc-input { background: #0d1117; border: 1px solid #30363d; color: white; padding: 4px 8px; border-radius: 4px; width: 100%; font-family: monospace; }
         .calc-input:focus { outline: none; border-color: #58a6ff; }
         .calc-btn { background: #1f6feb; color: white; padding: 6px 12px; border-radius: 6px; font-weight: 500; font-size: 0.875rem; width: 100%; transition: 0.2s; }
         .calc-btn:hover { background: #388bfd; }
-        
-        /* 過濾按鈕樣式 */
         .filter-btn { padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; border: 1px solid #30363d; color: #787b86; transition: 0.2s; }
         .filter-btn:hover { color: #c9d1d9; border-color: #787b86; }
         .filter-btn.active { background: #58a6ff; color: #0b0f17; border-color: #58a6ff; font-weight: bold; }
-        
         .fav-star { transition: transform 0.2s, color 0.2s; }
         .fav-star:hover { transform: scale(1.2); }
     </style>
@@ -41,7 +45,7 @@
             <h1 class="text-2xl font-bold text-white flex items-center gap-3">
                 <i class="fas fa-layer-group text-blue-500"></i> 全景量化終端機
             </h1>
-            <p class="text-sm text-gray-400 mt-1">S&P 500 / NASDAQ 估值模型與自選股追蹤</p>
+            <p class="text-sm text-gray-400 mt-1">S&P 500 估值模型與自選股追蹤</p>
         </div>
     </header>
 
@@ -51,23 +55,17 @@
         <!-- 左側主表區 -->
         <main class="xl:w-3/4 glass-panel flex flex-col overflow-hidden">
             <div class="p-4 border-b border-gray-700 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                
-                <!-- 搜尋與過濾群組 -->
                 <div class="flex flex-col gap-3 w-full md:w-auto">
                     <div class="relative w-full md:w-72">
                         <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
                         <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="搜尋代碼、公司名稱..." 
                             class="w-full pl-10 pr-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-sm text-white focus:outline-none focus:border-blue-500">
                     </div>
-                    <!-- 市場/自選股過濾按鈕 -->
                     <div class="flex gap-2">
                         <button class="filter-btn active" id="btn-ALL" onclick="setMarketFilter('ALL')">全部市場</button>
-                        <button class="filter-btn" id="btn-SP500" onclick="setMarketFilter('S&P 500')">S&P 500</button>
-                        <button class="filter-btn" id="btn-NASDAQ" onclick="setMarketFilter('NASDAQ')">NASDAQ</button>
                         <button class="filter-btn" id="btn-FAV" onclick="setMarketFilter('FAV')"><i class="fas fa-star text-yellow-500 mr-1"></i>我的最愛</button>
                     </div>
                 </div>
-
                 <div class="text-xs text-gray-400 hidden md:block">點選 <i class="far fa-star"></i> 加入自選股 | 點擊列進入計算器</div>
             </div>
             
@@ -75,7 +73,7 @@
                 <table class="w-full text-left text-sm whitespace-nowrap">
                     <thead class="text-xs uppercase bg-gray-800 text-gray-400 sticky top-0 z-10 shadow-md">
                         <tr>
-                            <th class="px-4 py-4 w-10"></th> <!-- 星星欄位 -->
+                            <th class="px-4 py-4 w-10"></th>
                             <th class="px-2 py-4" onclick="sortTable('ticker')">代碼 <i class="fas fa-sort ml-1"></i></th>
                             <th class="px-6 py-4" onclick="sortTable('name')">公司與指數 <i class="fas fa-sort ml-1"></i></th>
                             <th class="px-6 py-4 text-right" onclick="sortTable('price', true)">最新股價 <i class="fas fa-sort ml-1"></i></th>
@@ -108,7 +106,7 @@
 
     </div>
 
-    <!-- Modal 彈窗 (深度分析 + 估值/PEAD 計算) -->
+    <!-- Modal 彈窗 -->
     <div id="detailModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4 z-50 overflow-y-auto">
         <div class="glass-panel bg-[#0d1117] border border-gray-700 w-full max-w-5xl my-8 rounded-xl relative flex flex-col shadow-2xl">
             
@@ -153,20 +151,22 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     
-                    <!-- 左欄：財報歷史與故事 -->
+                    <!-- 左欄：故事與歷史 -->
                     <div class="flex flex-col gap-6">
-                        <!-- 企業故事 -->
-                        <div class="bg-gray-800/30 p-5 rounded-lg border border-gray-700/60">
-                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2"><i class="fas fa-book-open mr-2"></i>業務介紹</h3>
-                            <p id="modalStory" class="text-sm text-gray-300 leading-relaxed"></p>
+                        <!-- 企業故事 (加入 h-48 固定高度與滾動條) -->
+                        <div class="bg-gray-800/30 p-5 rounded-lg border border-gray-700/60 flex flex-col h-48">
+                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2 flex-shrink-0"><i class="fas fa-book-open mr-2"></i>業務介紹 (中文翻譯)</h3>
+                            <div class="overflow-y-auto story-scroll flex-grow pr-2">
+                                <p id="modalStory" class="text-sm text-gray-300 leading-relaxed"></p>
+                            </div>
                         </div>
                         
-                        <!-- 財報歷史 -->
-                        <div>
-                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2"><i class="fas fa-history mr-2"></i>財報歷史表現</h3>
-                            <div class="overflow-x-auto rounded border border-gray-700">
-                                <table class="w-full text-left text-xs">
-                                    <thead class="bg-gray-800 text-gray-400">
+                        <!-- 財報歷史 (最高限高並滾動) -->
+                        <div class="flex flex-col max-h-64">
+                            <h3 class="text-sm font-bold text-gray-400 uppercase mb-2"><i class="fas fa-history mr-2"></i>財報歷史表現 (含預測)</h3>
+                            <div class="overflow-y-auto rounded border border-gray-700 story-scroll flex-grow">
+                                <table class="w-full text-left text-xs sticky top-0">
+                                    <thead class="bg-gray-800 text-gray-400 sticky top-0 z-10">
                                         <tr>
                                             <th class="px-3 py-2">季度</th>
                                             <th class="px-3 py-2 text-right">預期 EPS</th>
@@ -184,8 +184,6 @@
 
                     <!-- 右欄：模型計算器 -->
                     <div class="flex flex-col gap-4">
-                        
-                        <!-- 1. 價值估值計算器 -->
                         <div class="bg-gray-900 border border-gray-700 rounded-lg p-4">
                             <h3 class="text-blue-400 font-bold mb-3 flex items-center"><i class="fas fa-calculator mr-2"></i>價值估值分析 (合理價試算)</h3>
                             <div class="grid grid-cols-2 gap-3 mb-3">
@@ -202,7 +200,6 @@
                             <div id="valResult" class="text-sm p-3 bg-gray-800 rounded border border-gray-700 hidden"></div>
                         </div>
 
-                        <!-- 2. PEAD 模型計算器 -->
                         <div class="bg-gray-900 border border-gray-700 rounded-lg p-4">
                             <h3 class="text-purple-400 font-bold mb-3 flex items-center"><i class="fas fa-rocket mr-2"></i>PEAD 盈餘動能模型 (SUE)</h3>
                             <div class="grid grid-cols-3 gap-3 mb-3">
@@ -222,7 +219,6 @@
                             <button onclick="calcPead()" class="calc-btn bg-purple-600 hover:bg-purple-500 mb-3">計算 SUE 爆發分數</button>
                             <div id="peadResult" class="text-sm p-3 bg-gray-800 rounded border border-gray-700 hidden"></div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -232,9 +228,8 @@
     <script>
         let stocksData = [];
         let currentModalPrice = 0;
-        let currentMarketFilter = 'ALL'; // 'ALL', 'S&P 500', 'NASDAQ', 'FAV'
+        let currentMarketFilter = 'ALL';
         
-        // 讀取 LocalStorage 中的最愛名單
         let favoriteStocks = JSON.parse(localStorage.getItem('favStocks')) || [];
 
         fetch('sp500_data.json')
@@ -250,50 +245,34 @@
         let currentSortColumn = '';
         let isAscending = true;
 
-        // 加入/移除最愛邏輯
         function toggleFavorite(event, ticker) {
-            event.stopPropagation(); // 阻止觸發開啟 Modal
-            if(favoriteStocks.includes(ticker)) {
-                favoriteStocks = favoriteStocks.filter(t => t !== ticker);
-            } else {
-                favoriteStocks.push(ticker);
-            }
+            event.stopPropagation();
+            if(favoriteStocks.includes(ticker)) favoriteStocks = favoriteStocks.filter(t => t !== ticker);
+            else favoriteStocks.push(ticker);
             localStorage.setItem('favStocks', JSON.stringify(favoriteStocks));
-            filterTable(); // 重新渲染表格更新星星狀態
-        }
-
-        // 切換市場過濾按鈕
-        function setMarketFilter(market) {
-            currentMarketFilter = market;
-            // 更新按鈕樣式
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            document.getElementById('btn-' + (market === 'S&P 500' ? 'SP500' : market)).classList.add('active');
             filterTable();
         }
 
-        // 搜尋與市場過濾
+        function setMarketFilter(market) {
+            currentMarketFilter = market;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById('btn-' + market).classList.add('active');
+            filterTable();
+        }
+
         function filterTable() {
             const query = document.getElementById('searchInput').value.toLowerCase();
             let filtered = stocksData.filter(stock => 
                 stock.ticker.toLowerCase().includes(query) ||
                 stock.name.toLowerCase().includes(query)
             );
-
-            // 套用市場過濾
-            if (currentMarketFilter === 'FAV') {
-                filtered = filtered.filter(stock => favoriteStocks.includes(stock.ticker));
-            } else if (currentMarketFilter !== 'ALL') {
-                filtered = filtered.filter(stock => stock.marketIndex === currentMarketFilter);
-            }
-
+            if (currentMarketFilter === 'FAV') filtered = filtered.filter(stock => favoriteStocks.includes(stock.ticker));
             renderTable(filtered);
         }
 
-        // 渲染主表格
         function renderTable(data) {
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = '';
-
             if (data.length === 0) {
                 tbody.innerHTML = '<tr><td colspan="7" class="px-6 py-10 text-center text-gray-500">找不到符合條件的標的</td></tr>';
                 return;
@@ -301,20 +280,12 @@
 
             data.forEach(item => {
                 let statusBadge = '';
-                if (item.surprise > 0) {
-                    statusBadge = `<span class="badge-beat text-xs font-semibold px-2 py-0.5 rounded"><i class="fas fa-arrow-up mr-1"></i>Beat</span>`;
-                } else if (item.surprise < 0) {
-                    statusBadge = `<span class="badge-miss text-xs font-semibold px-2 py-0.5 rounded"><i class="fas fa-arrow-down mr-1"></i>Miss</span>`;
-                }
+                if (item.surprise > 0) statusBadge = `<span class="badge-beat text-xs font-semibold px-2 py-0.5 rounded"><i class="fas fa-arrow-up mr-1"></i>Beat</span>`;
+                else if (item.surprise < 0) statusBadge = `<span class="badge-miss text-xs font-semibold px-2 py-0.5 rounded"><i class="fas fa-arrow-down mr-1"></i>Miss</span>`;
+                else statusBadge = `<span class="text-gray-500">-</span>`;
 
-                // 判斷是否為最愛
                 const isFav = favoriteStocks.includes(item.ticker);
                 const starClass = isFav ? 'fas fa-star text-yellow-500' : 'far fa-star text-gray-600';
-                
-                // 指數標籤顏色
-                const indexBadge = item.marketIndex === 'NASDAQ' 
-                    ? `<span class="text-[10px] bg-purple-900/40 text-purple-400 border border-purple-800 px-1.5 py-0.5 rounded ml-2">NQ</span>`
-                    : `<span class="text-[10px] bg-blue-900/40 text-blue-400 border border-blue-800 px-1.5 py-0.5 rounded ml-2">SPY</span>`;
 
                 const tr = document.createElement('tr');
                 tr.className = 'clickable-row border-b border-gray-800/60';
@@ -326,7 +297,7 @@
                     </td>
                     <td class="px-2 py-4 font-bold text-blue-400">${item.ticker}</td>
                     <td class="px-6 py-4 font-medium text-gray-200">
-                        ${item.name} ${indexBadge}
+                        ${item.name}
                     </td>
                     <td class="px-6 py-4 text-right text-white font-mono font-bold">$${item.price.toFixed(2)}</td>
                     <td class="px-6 py-4 text-right text-gray-300 font-mono">${item.pe}</td>
@@ -362,7 +333,6 @@
             document.getElementById('modalEv').innerText = stock.evEbitda || 'N/A';
 
             currentModalPrice = stock.price;
-
             document.getElementById('calcEps').value = stock.actEps || '';
             document.getElementById('calcPe').value = stock.pe > 0 ? Math.min(stock.pe, 25) : 15;
             document.getElementById('valResult').classList.add('hidden');
@@ -375,17 +345,31 @@
             histBody.innerHTML = '';
             if(stock.history && stock.history.length > 0) {
                 stock.history.forEach(h => {
-                    let isBeat = h.surprise > 0;
-                    let colorClass = isBeat ? 'text-green-400' : 'text-red-400';
-                    histBody.innerHTML += `
-                        <tr class="hover:bg-gray-800/40">
-                            <td class="px-3 py-2 text-gray-300">${h.quarter}</td>
-                            <td class="px-3 py-2 text-right text-gray-500">$${h.est.toFixed(2)}</td>
-                            <td class="px-3 py-2 text-right text-white font-bold">$${h.act.toFixed(2)}</td>
-                            <td class="px-3 py-2 text-right ${colorClass}">${h.surprise > 0 ? '+':''}${h.surprise.toFixed(1)}%</td>
-                            <td class="px-3 py-2 text-center text-xs ${colorClass}">${h.status}</td>
-                        </tr>
-                    `;
+                    // 如果是等待公佈 (Futu 預測業績風格)
+                    if (h.status === "等待公佈") {
+                        histBody.innerHTML += `
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="px-3 py-2 text-blue-400">${h.quarter}</td>
+                                <td class="px-3 py-2 text-right text-gray-400 font-bold">$${h.est !== "-" ? h.est : "N/A"}</td>
+                                <td class="px-3 py-2 text-right text-gray-600">-</td>
+                                <td class="px-3 py-2 text-right text-gray-600">-</td>
+                                <td class="px-3 py-2 text-center"><span class="badge-wait text-[10px] px-2 py-0.5 rounded">等待公佈</span></td>
+                            </tr>
+                        `;
+                    } else {
+                        // 過去歷史
+                        let isBeat = h.surprise > 0;
+                        let colorClass = isBeat ? 'text-green-400' : 'text-red-400';
+                        histBody.innerHTML += `
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="px-3 py-2 text-gray-300">${h.quarter}</td>
+                                <td class="px-3 py-2 text-right text-gray-500">$${h.est}</td>
+                                <td class="px-3 py-2 text-right text-white font-bold">$${h.act}</td>
+                                <td class="px-3 py-2 text-right ${colorClass}">${h.surprise > 0 ? '+':''}${h.surprise}%</td>
+                                <td class="px-3 py-2 text-center text-xs ${colorClass}">${h.status}</td>
+                            </tr>
+                        `;
+                    }
                 });
             }
 
@@ -395,7 +379,6 @@
         function closeModal() { document.getElementById('detailModal').classList.add('hidden'); }
         window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
 
-        // 估值與 PEAD 計算邏輯
         function calcValuation() {
             const eps = parseFloat(document.getElementById('calcEps').value);
             const pe = parseFloat(document.getElementById('calcPe').value);
