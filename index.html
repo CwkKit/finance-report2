@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&P 500 Pro Screener</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --tv-bg: #0e1015; --tv-panel: #131722; --tv-border: #2a2e39; --tv-text: #d1d4dc; --tv-text-muted: #787b86; --tv-up: #26a69a; --tv-down: #ef5350; --tv-hover: #1e222d; }
+        body { background-color: var(--tv-bg); color: var(--tv-text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        .tv-panel { background-color: var(--tv-panel); border: 1px solid var(--tv-border); }
+        .tv-border { border-color: var(--tv-border); }
+        .tv-up { color: var(--tv-up); }
+        .tv-down { color: var(--tv-down); }
+        .tv-bg-up { background-color: rgba(38, 166, 154, 0.15); border: 1px solid rgba(38, 166, 154, 0.3); color: var(--tv-up); }
+        .tv-bg-down { background-color: rgba(239, 83, 80, 0.15); border: 1px solid rgba(239, 83, 80, 0.3); color: var(--tv-down); }
+        th { color: var(--tv-text-muted); cursor: pointer; user-select: none; transition: color 0.2s; }
+        th:hover { color: #fff; }
+        tbody tr { transition: background-color 0.15s ease; cursor: pointer; border-bottom: 1px solid var(--tv-border); }
+        tbody tr:hover { background-color: var(--tv-hover); }
+        #detail-modal { opacity: 0; pointer-events: none; transition: opacity 0.2s ease-in-out; }
+        #detail-modal.active { opacity: 1; pointer-events: auto; }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: var(--tv-bg); }
+        ::-webkit-scrollbar-thumb { background: var(--tv-border); border-radius: 3px; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col p-4 md:p-6 gap-6">
+    <header class="flex justify-between items-center tv-panel rounded-lg p-5">
+        <div>
+            <h1 class="text-2xl font-bold text-white tracking-wide"><i class="fas fa-layer-group text-[#26a69a] mr-3"></i>S&P 500 Custom Screener</h1>
+            <p class="text-sm text-[#787b86] mt-1 font-mono">Real-time Quantitative Analysis Dashboard</p>
+        </div>
+        <div class="text-right">
+            <div id="clock" class="text-lg font-mono text-[#d1d4dc]"></div>
+            <div class="text-xs text-[#787b86] mt-1"><i class="fas fa-circle text-[#26a69a] text-[10px] mr-1 blink"></i>Market Open</div>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 xl:grid-cols-4 gap-6 flex-grow">
+        <main class="xl:col-span-3 tv-panel rounded-lg flex flex-col overflow-hidden">
+            <div class="p-4 border-b tv-border flex justify-between items-center">
+                <h2 class="text-lg font-semibold text-white">估值篩選主表 (Valuation Screener)</h2>
+                <span class="text-xs text-[#787b86] bg-[#1e222d] px-2 py-1 rounded">點擊表頭進行排序</span>
+            </div>
+            <div class="overflow-x-auto flex-grow">
+                <table class="w-full text-left text-sm whitespace-nowrap">
+                    <thead class="text-xs uppercase bg-[#0e1015] sticky top-0 z-10">
+                        <tr>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('ticker')">Ticker <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('price')">Price <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('marketCap')">Mkt Cap (B) <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('pe')">P/E (TTM) <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('ps')">P/S <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('eps')">EPS <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('margin')">Margin (%) <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('evEbitda')">EV/EBITDA <i class="fas fa-sort ml-1"></i></th>
+                            <th class="px-6 py-4 font-semibold" onclick="sortTable('nextEarnings')">Next Earnings <i class="fas fa-sort ml-1"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody id="screener-body" class="font-mono">
+                        <tr><td colspan="9" class="px-6 py-10 text-center text-[#787b86]">正在從伺服器載入最新數據...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <aside class="tv-panel rounded-lg overflow-hidden flex flex-col h-[600px] xl:h-auto">
+            <div class="p-4 border-b tv-border">
+                <h2 class="text-lg font-semibold text-white"><i class="far fa-calendar-alt mr-2 text-[#26a69a]"></i>宏觀經濟日曆</h2>
+            </div>
+            <div class="flex-grow p-1">
+                <div class="tradingview-widget-container" style="height:100%;width:100%">
+                  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+                  { "colorTheme": "dark", "isTransparent": true, "width": "100%", "height": "100%", "locale": "tw", "importanceFilter": "0,1", "countryFilter": "us" }
+                  </script>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Detail Modal -->
+    <div id="detail-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div class="tv-panel rounded-xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative border tv-border">
+            <button onclick="closeModal()" class="absolute top-5 right-5 text-[#787b86] hover:text-white transition"><i class="fas fa-times text-xl"></i></button>
+            <div class="p-8">
+                <div class="flex items-center gap-4 border-b tv-border pb-6 mb-6">
+                    <div id="modal-logo" class="w-12 h-12 rounded-full bg-[#1e222d] flex items-center justify-center text-xl font-bold text-white border tv-border"></div>
+                    <div>
+                        <h2 id="modal-ticker" class="text-3xl font-bold text-white tracking-wide"></h2>
+                        <p id="modal-name" class="text-[#787b86]"></p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                    <div class="bg-[#1e222d] rounded-lg p-4 border tv-border">
+                        <div class="text-[#787b86] text-xs uppercase mb-1">P/E (TTM)</div>
+                        <div id="modal-pe" class="text-2xl font-mono text-white"></div>
+                    </div>
+                    <div class="bg-[#1e222d] rounded-lg p-4 border tv-border">
+                        <div class="text-[#787b86] text-xs uppercase mb-1">EV/EBITDA</div>
+                        <div id="modal-ev" class="text-2xl font-mono text-white"></div>
+                    </div>
+                    <div class="bg-[#1e222d] rounded-lg p-4 border tv-border md:col-span-2">
+                        <div class="text-[#787b86] text-xs uppercase mb-1">下次財報日 (Next Earnings)</div>
+                        <div class="flex items-center gap-3">
+                            <div id="modal-date" class="text-2xl font-mono text-white"></div>
+                            <span class="text-xs bg-[#26a69a]/20 text-[#26a69a] px-2 py-1 rounded border border-[#26a69a]/30"><i class="fas fa-stopwatch mr-1"></i>即將到來</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold text-white mb-3 flex items-center"><i class="fas fa-chess-rook text-[#26a69a] mr-2"></i>企業護城河 & 近期催化劑</h3>
+                    <div class="bg-[#1e222d] rounded-lg p-5 border tv-border leading-relaxed text-sm text-[#d1d4dc]" id="modal-moat"></div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-3 flex items-center"><i class="fas fa-history text-[#26a69a] mr-2"></i>歷史財報表現 (Earnings History)</h3>
+                    <div class="overflow-x-auto rounded-lg border tv-border">
+                        <table class="w-full text-left text-sm whitespace-nowrap">
+                            <thead class="text-xs uppercase bg-[#0e1015] text-[#787b86]">
+                                <tr>
+                                    <th class="px-6 py-3 font-semibold">季度 (Quarter)</th>
+                                    <th class="px-6 py-3 font-semibold">預期 EPS (Est)</th>
+                                    <th class="px-6 py-3 font-semibold">實際 EPS (Actual)</th>
+                                    <th class="px-6 py-3 font-semibold">驚喜度 (Surprise)</th>
+                                    <th class="px-6 py-3 font-semibold text-right">狀態 (Status)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="modal-history-body" class="font-mono bg-[#1e222d] divide-y tv-border"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        setInterval(() => {
+            document.getElementById('clock').innerText = new Date().toLocaleString('zh-TW', { hour12: false });
+        }, 1000);
+        document.getElementById('clock').innerText = new Date().toLocaleString('zh-TW', { hour12: false });
+
+        let stockData = [];
+
+        // 自動去讀取 Python 抓下來的真實數據
+        fetch('sp500_data.json')
+            .then(response => response.json())
+            .then(data => {
+                stockData = data;
+                renderTable(stockData);
+            })
+            .catch(error => {
+                document.getElementById('screener-body').innerHTML = '<tr><td colspan="9" class="px-6 py-10 text-center text-[#ef5350]">請先執行 GitHub Action 產生數據庫 (sp500_data.json)</td></tr>';
+            });
+
+        function renderTable(data) {
+            const tbody = document.getElementById('screener-body');
+            tbody.innerHTML = '';
+            data.forEach((stock) => {
+                const tr = document.createElement('tr');
+                tr.onclick = () => openModal(stock);
+                tr.innerHTML = `
+                    <td class="px-6 py-4 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-[#1e222d] flex items-center justify-center text-xs font-bold text-white border tv-border">${stock.ticker.charAt(0)}</div>
+                        <div class="font-sans font-bold text-white tracking-wide">${stock.ticker}</div>
+                    </td>
+                    <td class="px-6 py-4 text-white">$${stock.price.toFixed(2)}</td>
+                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.marketCap}</td>
+                    <td class="px-6 py-4 ${stock.pe < 20 ? 'tv-up' : (stock.pe > 50 ? 'tv-down' : 'text-[#d1d4dc]')}">${stock.pe}</td>
+                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.ps}</td>
+                    <td class="px-6 py-4 text-white">$${stock.eps}</td>
+                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.margin}%</td>
+                    <td class="px-6 py-4 text-[#d1d4dc]">${stock.evEbitda}</td>
+                    <td class="px-6 py-4 text-[#787b86] font-sans text-xs">${stock.nextEarnings}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        let currentSortCol = '';
+        let isAsc = true;
+        function sortTable(column) {
+            if (currentSortCol === column) isAsc = !isAsc;
+            else { currentSortCol = column; isAsc = true; }
+            stockData.sort((a, b) => {
+                let valA = a[column], valB = b[column];
+                if (typeof valA === 'string') return isAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                else return isAsc ? valA - valB : valB - valA;
+            });
+            renderTable(stockData);
+        }
+
+        function openModal(stock) {
+            document.getElementById('modal-logo').innerText = stock.ticker.charAt(0);
+            document.getElementById('modal-ticker').innerText = stock.ticker;
+            document.getElementById('modal-name').innerText = stock.name;
+            document.getElementById('modal-pe').innerText = stock.pe;
+            document.getElementById('modal-ev').innerText = stock.evEbitda;
+            document.getElementById('modal-date').innerText = stock.nextEarnings;
+            document.getElementById('modal-moat').innerText = stock.moat;
+
+            const historyBody = document.getElementById('modal-history-body');
+            historyBody.innerHTML = '';
+            stock.history.forEach(h => {
+                const statusBadge = h.beat 
+                    ? `<span class="tv-bg-up px-2 py-1 rounded text-xs font-sans tracking-wide">BEAT</span>` 
+                    : `<span class="tv-bg-down px-2 py-1 rounded text-xs font-sans tracking-wide">MISS</span>`;
+                const surpriseColor = h.surprise > 0 ? 'tv-up' : 'tv-down';
+                const sign = h.surprise > 0 ? '+' : '';
+
+                historyBody.innerHTML += `
+                    <tr>
+                        <td class="px-6 py-4 text-[#d1d4dc] font-sans">${h.quarter}</td>
+                        <td class="px-6 py-4 text-[#787b86]">$${h.est.toFixed(2)}</td>
+                        <td class="px-6 py-4 text-white">$${h.actual.toFixed(2)}</td>
+                        <td class="px-6 py-4 ${surpriseColor}">${sign}${h.surprise}%</td>
+                        <td class="px-6 py-4 text-right">${statusBadge}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('detail-modal').classList.add('active');
+        }
+
+        function closeModal() { document.getElementById('detail-modal').classList.remove('active'); }
+        document.getElementById('detail-modal').addEventListener('click', function(e) { if(e.target === this) closeModal(); });
+    </script>
+</body>
+</html>
