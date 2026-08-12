@@ -102,7 +102,7 @@
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 35.33,
-        "epsStd": 0.055,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 503.81,
         "profit": 40.3,
-        "pe": 28.04,
+        "pe": 28.16,
         "pb": 8.46,
         "ps": 11.27,
         "evEbitda": 19.53,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 28.04,
+        "fairPe": 28.16,
         "epsStd": 0.138,
         "history": [
             {
@@ -261,17 +261,17 @@
         "marketIndex": "S&P 500",
         "price": 332.81,
         "profit": 3.7,
-        "pe": 305.33,
+        "pe": 302.55,
         "pb": 15.13,
         "ps": 12.69,
         "evEbitda": 119.73,
         "shortDesc": "Auto Manufacturers",
-        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接銷售和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
+        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
         "estEps": 0.54,
         "actEps": 0.33,
         "surprise": -38.35,
         "nextEarnings": "2026-10-21",
-        "fairPe": 305.33,
+        "fairPe": 302.55,
         "epsStd": 0.109,
         "history": [
             {
@@ -357,7 +357,7 @@
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 22.37,
-        "epsStd": 1.287,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.64,
+                "est": 1.65,
                 "act": 2.78,
-                "surprise": 69.02,
+                "surprise": 68.18,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -436,13 +436,13 @@
         "ps": 6.69,
         "evEbitda": 14.12,
         "shortDesc": "Internet Content & Information",
-        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過 feed、reels、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一個訊息應用程序，供人們透過文字、音訊和視訊通話和通話與朋友、家人、社群和企業聯絡；",
+        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過提要、捲軸、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一款訊息應用程序，供人們透過文字、音訊和視訊通話跨平台和裝置與朋友、家人、社群和企業聯繫； Meta AI，一個助手",
         "estEps": 7.22,
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 22.42,
-        "epsStd": 0.757,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.95,
-        "epsStd": 2.123,
+        "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.63,
+                "est": 2.67,
                 "act": 5.11,
-                "surprise": 94.3,
+                "surprise": 91.59,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -612,7 +612,7 @@
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 13.32,
-        "epsStd": 0.999,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
@@ -684,7 +691,7 @@
         "ps": 5.16,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
-        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
+        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
         "estEps": 5.8,
         "actEps": 6.14,
         "surprise": 5.86,
