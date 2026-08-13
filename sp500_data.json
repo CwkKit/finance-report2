@@ -4,11 +4,11 @@
         "name": "NVIDIA Corporation",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 224.93,
+        "price": 225.3,
         "profit": 63.0,
-        "pe": 34.5,
-        "pb": 27.87,
-        "ps": 21.49,
+        "pe": 34.56,
+        "pb": 27.92,
+        "ps": 21.53,
         "evEbitda": 32.52,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它透過計算和網路以及圖形部門運作。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商",
@@ -16,7 +16,7 @@
         "actEps": 1.87,
         "surprise": 5.54,
         "nextEarnings": "2026-08-26",
-        "fairPe": 34.5,
+        "fairPe": 34.56,
         "epsStd": 0.023,
         "history": [
             {
@@ -89,10 +89,10 @@
         "name": "Apple Inc.",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 305.18,
+        "price": 305.26,
         "profit": 27.6,
-        "pe": 35.32,
-        "pb": 41.46,
+        "pe": 34.93,
+        "pb": 41.48,
         "ps": 9.54,
         "evEbitda": 26.39,
         "shortDesc": "Consumer Electronics",
@@ -101,8 +101,8 @@
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 35.32,
-        "epsStd": 0.054,
+        "fairPe": 34.93,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.34,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 10.12,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 2.52,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
@@ -174,7 +174,7 @@
         "name": "Microsoft Corporation",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 496.81,
+        "price": 496.88,
         "profit": 40.3,
         "pe": 27.65,
         "pb": 8.34,
@@ -259,9 +259,9 @@
         "name": "Tesla, Inc.",
         "sector": "Consumer Cyclical",
         "marketIndex": "S&P 500",
-        "price": 339.99,
+        "price": 339.96,
         "profit": 3.7,
-        "pe": 314.81,
+        "pe": 314.78,
         "pb": 15.46,
         "ps": 12.96,
         "evEbitda": 117.78,
@@ -271,7 +271,7 @@
         "actEps": 0.33,
         "surprise": -38.35,
         "nextEarnings": "2026-10-21",
-        "fairPe": 314.81,
+        "fairPe": 314.78,
         "epsStd": 0.109,
         "history": [
             {
@@ -344,9 +344,9 @@
         "name": "Amazon.com, Inc.",
         "sector": "Consumer Cyclical",
         "marketIndex": "S&P 500",
-        "price": 265.06,
+        "price": 265.13,
         "profit": 17.4,
-        "pe": 21.32,
+        "pe": 21.33,
         "pb": 5.18,
         "ps": 3.69,
         "evEbitda": 17.83,
@@ -356,8 +356,8 @@
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
-        "fairPe": 21.32,
-        "epsStd": 1.288,
+        "fairPe": 21.33,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 68.18,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 26.13,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 17.08,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.36,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.17,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -429,9 +429,9 @@
         "name": "Meta Platforms, Inc.",
         "sector": "Communication Services",
         "marketIndex": "S&P 500",
-        "price": 594.53,
+        "price": 594.97,
         "profit": 29.8,
-        "pe": 22.38,
+        "pe": 22.39,
         "pb": 5.8,
         "ps": 6.64,
         "evEbitda": 13.65,
@@ -441,8 +441,8 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 22.38,
-        "epsStd": 2.735,
+        "fairPe": 22.39,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 56.79,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -84.34,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 20.96,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 23.11,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 18.67,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 13.94,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -514,10 +514,10 @@
         "name": "Alphabet Inc.",
         "sector": "Communication Services",
         "marketIndex": "S&P 500",
-        "price": 346.17,
+        "price": 346.36,
         "profit": 54.8,
-        "pe": 17.37,
-        "pb": 6.8,
+        "pe": 17.38,
+        "pb": 6.81,
         "ps": 9.5,
         "evEbitda": 23.66,
         "shortDesc": "Internet Content & Information",
@@ -526,8 +526,8 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.37,
-        "epsStd": 2.12,
+        "fairPe": 17.38,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 91.59,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 40.1,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
@@ -599,11 +599,11 @@
         "name": "Berkshire Hathaway Inc. New",
         "sector": "Financial Services",
         "marketIndex": "S&P 500",
-        "price": 508.17,
+        "price": 506.93,
         "profit": 22.3,
-        "pe": 12.94,
+        "pe": 12.91,
         "pb": 0.0,
-        "ps": 2.83,
+        "ps": 2.82,
         "evEbitda": 3.7,
         "shortDesc": "Insurance - Diversified",
         "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
@@ -611,8 +611,8 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.94,
-        "epsStd": 1.005,
+        "fairPe": 12.91,
+        "epsStd": 0.999,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,13 +669,6 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 5.28,
-                "act": 4.68,
-                "surprise": -11.34,
-                "status": "Miss"
             }
         ]
     },
@@ -684,9 +677,9 @@
         "name": "JP Morgan Chase & Co.",
         "sector": "Financial Services",
         "marketIndex": "S&P 500",
-        "price": 363.4,
+        "price": 363.11,
         "profit": 34.9,
-        "pe": 15.57,
+        "pe": 15.56,
         "pb": 2.73,
         "ps": 5.18,
         "evEbitda": 0,
@@ -696,7 +689,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 15.57,
+        "fairPe": 15.56,
         "epsStd": 0.273,
         "history": [
             {
