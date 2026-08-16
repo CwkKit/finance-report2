@@ -96,13 +96,13 @@
         "ps": 9.56,
         "evEbitda": 26.71,
         "shortDesc": "Consumer Electronics",
-        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
+        "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 35.08,
-        "epsStd": 0.055,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -266,7 +266,7 @@
         "ps": 13.05,
         "evEbitda": 123.2,
         "shortDesc": "Auto Manufacturers",
-        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
+        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接銷售和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
         "estEps": 0.54,
         "actEps": 0.33,
         "surprise": -38.35,
@@ -357,7 +357,7 @@
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 21.15,
-        "epsStd": 1.287,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.64,
+                "est": 1.65,
                 "act": 2.78,
-                "surprise": 69.02,
+                "surprise": 68.18,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -442,7 +442,7 @@
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 22.22,
-        "epsStd": 0.757,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.36,
-        "epsStd": 2.123,
+        "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.63,
+                "est": 2.67,
                 "act": 5.11,
-                "surprise": 94.3,
+                "surprise": 91.59,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -606,13 +606,13 @@
         "ps": 2.8,
         "evEbitda": -1.79,
         "shortDesc": "Insurance - Diversified",
-        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、事故保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
+        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
         "estEps": 5.13,
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.67,
-        "epsStd": 0.999,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
