@@ -11,7 +11,7 @@
         "ps": 21.51,
         "evEbitda": 32.68,
         "shortDesc": "Semiconductors",
-        "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它透過計算和網路以及圖形部門運作。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商",
+        "story": "NVIDIA Corporation 在美国、台湾、中国、香港、欧洲和国际上作为数据中心规模的人工智能基础设施公司运营。它通过计算和网络以及图形部门运营。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。图形部分提供用于游戏和 PC 的 GeForce GPU；适用于企业工作站图形的 Quadro/NVIDIA RTX GPU。该公司的产品用于游戏、专业可视化、数据中心和汽车市场。其产品销售给原始设备制造商、原始设备制造商、系统集成商",
         "estEps": 1.77,
         "actEps": 1.87,
         "surprise": 5.54,
@@ -96,13 +96,13 @@
         "ps": 9.56,
         "evEbitda": 26.71,
         "shortDesc": "Consumer Electronics",
-        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
+        "story": "苹果公司在全球设计、制造和销售智能手机、个人电脑、平板电脑、可穿戴设备和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 35.08,
-        "epsStd": 0.054,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.34,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 10.12,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 2.52,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
@@ -181,7 +181,7 @@
         "ps": 11.09,
         "evEbitda": 19.21,
         "shortDesc": "Software - Infrastructure",
-        "story": "Microsoft Corporation 是一家技術公司，為全球個人和企業開發並支援一系列技術解決方案。其產品包括作業系統、伺服器應用程式、業務解決方案應用程式、軟體開發工具、桌面和伺服器管理工具以及視訊遊戲；和設備，例如個人電腦、平板電腦、遊戲和娛樂控制台、其他智慧型設備以及相關配件。該公司的生產力和業務流程部門提供 Microsoft 365 Commercial、企業移動性 + 安全性、Power BI、Exchange、SharePoint、Microsoft Teams、Microsoft 365 安全性和合規性、Microsoft 365 Copilot 以及 Windows Commercial 本地部署和 Office 許可本地部署。該細分市場也提供 Microsoft 365 Consumer 產品",
+        "story": "Microsoft Corporation 是一家技术公司，为全球个人和企业开发并支持一系列技术解决方案。其產品包括作業系統、伺服器應用程式、業務解決方案應用程式、軟體開發工具、桌面和伺服器管理工具以及視訊遊戲；和設備，例如個人電腦、平板電腦、遊戲和娛樂控制台、其他智慧型設備以及相關配件。該公司的生產力和業務流程部門提供 Microsoft 365 Commercial、企業移動性 + 安全性、Power BI、Exchange、SharePoint、Microsoft Teams、Microsoft 365 安全性和合規性、Microsoft 365 Copilot 以及 Windows Commercial 本地部署和 Office 許可本地部署。該細分市場也提供 Microsoft 365 Consumer 產品",
         "estEps": 4.24,
         "actEps": 4.74,
         "surprise": 11.81,
@@ -351,13 +351,13 @@
         "ps": 3.65,
         "evEbitda": 17.53,
         "shortDesc": "Internet Retail",
-        "story": "Amazon.com, Inc. 透過北美和國際的線上和實體商店從事消費品零售、廣告和訂閱服務。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它還提供運算、儲存、人工智慧、資料庫、分析、機器",
+        "story": "Amazon.com, Inc. 通过北美和国际的在线和实体商店从事消费品零售、广告和订阅服务。该公司通过三个部门运营：北美部门、国际部门和亚马逊网络服务部门 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它还提供计算、存储、人工智能、数据库、分析、机器",
         "estEps": 1.83,
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 21.15,
-        "epsStd": 1.288,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 68.18,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 26.13,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 17.08,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.36,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.17,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -436,13 +436,13 @@
         "ps": 6.58,
         "evEbitda": 13.9,
         "shortDesc": "Internet Content & Information",
-        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過提要、捲軸、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一款訊息應用程序，供人們透過文字、音訊和視訊通話跨平台和裝置與朋友、家人、社群和企業聯繫； Meta AI，一個助手",
+        "story": "Meta Platforms, Inc. 致力于开发产品，使人们能够在美国、加拿大、欧洲、亚太地区和国际上通过移动设备、个人电脑、虚拟现实 (VR) 耳机和人工智能眼镜与朋友和家人联系和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人们能够通过提要、卷轴、故事、群组、市场等建立社区； Instagram 通过 Instagram 动态、故事、视频、直播和消息传递拉近人们的距离； Messenger，一款消息应用程序，供人们通过文本、音频和视频通话跨平台和设备与朋友、家人、社区和企业联系； Meta AI，一个助手",
         "estEps": 7.22,
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 22.22,
-        "epsStd": 2.735,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 56.79,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -84.34,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 20.96,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 23.11,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 18.67,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 13.94,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -521,13 +521,13 @@
         "ps": 9.49,
         "evEbitda": 23.83,
         "shortDesc": "Internet Content & Information",
-        "story": "Alphabet Inc. 在美國、歐洲、中東、非洲、亞太地區、加拿大和拉丁美洲提供各種產品和平台。它透過谷歌服務、谷歌雲端和其他賭注部門運作。 Google 服務部門提供產品和服務，包括廣告、Android、Chrome、裝置、Gmail、Google 雲端硬碟、Google 地圖、Google 照片、Google Play、搜尋和 YouTube。它還參與 Google Play 和 YouTube 中應用程式的銷售和應用程式內購買以及數位內容；和設備，以及提供 YouTube 消費者訂閱服務，例如 YouTube TV、YouTube Music 和 Premium、NFL Sunday Ticket 和 Google One。谷歌雲端部門為人工智慧解決方案提供基於消費的費用和訂閱，包括人工智慧基礎設施",
+        "story": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
         "estEps": 2.9,
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.36,
-        "epsStd": 2.12,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 91.59,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 40.1,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
@@ -612,7 +612,7 @@
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.67,
-        "epsStd": 1.005,
+        "epsStd": 0.999,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,13 +669,6 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 5.28,
-                "act": 4.68,
-                "surprise": -11.34,
-                "status": "Miss"
             }
         ]
     },
@@ -691,7 +684,7 @@
         "ps": 5.18,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
-        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
+        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和借貸產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
         "estEps": 5.8,
         "actEps": 6.14,
         "surprise": 5.86,
