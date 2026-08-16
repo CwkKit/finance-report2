@@ -96,13 +96,13 @@
         "ps": 9.56,
         "evEbitda": 26.71,
         "shortDesc": "Consumer Electronics",
-        "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 35.08,
-        "epsStd": 0.054,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.34,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 10.12,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 2.52,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
@@ -357,7 +357,7 @@
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 21.15,
-        "epsStd": 1.288,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 68.18,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 26.13,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 17.08,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.36,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.17,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -436,13 +436,13 @@
         "ps": 6.58,
         "evEbitda": 13.9,
         "shortDesc": "Internet Content & Information",
-        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過提要、捲軸、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一款訊息應用程序，供人們透過文字、音訊和視訊通話跨平台和裝置與朋友、家人、社群和企業聯繫； Meta AI，一個助手",
+        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過 feed、reels、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一個訊息應用程序，供人們透過文字、音訊和視訊通話和通話與朋友、家人、社群和企業聯絡；",
         "estEps": 7.22,
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 22.22,
-        "epsStd": 2.735,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 56.79,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -84.34,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 20.96,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 23.11,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 18.67,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 13.94,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.36,
-        "epsStd": 2.12,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 91.59,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 40.1,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
@@ -606,13 +606,13 @@
         "ps": 2.8,
         "evEbitda": -1.79,
         "shortDesc": "Insurance - Diversified",
-        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
+        "story": "伯克希爾哈撒韋及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
         "estEps": 5.13,
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.67,
-        "epsStd": 1.005,
+        "epsStd": 0.999,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,13 +669,6 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 5.28,
-                "act": 4.68,
-                "surprise": -11.34,
-                "status": "Miss"
             }
         ]
     },
@@ -691,7 +684,7 @@
         "ps": 5.18,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
-        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
+        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。它分為三個業務部門：消費者和社區銀行業務、商業和投資銀行業務以及資產和財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
         "estEps": 5.8,
         "actEps": 6.14,
         "surprise": 5.86,
