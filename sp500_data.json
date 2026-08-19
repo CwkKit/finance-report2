@@ -102,7 +102,7 @@
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 36.38,
-        "epsStd": 0.055,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -181,7 +181,7 @@
         "ps": 10.84,
         "evEbitda": 18.68,
         "shortDesc": "Software - Infrastructure",
-        "story": "Microsoft Corporation 是一家技術公司，為全球個人和企業開發並支援一系列技術解決方案。其產品包括作業系統、伺服器應用程式、業務解決方案應用程式、軟體開發工具、桌面和伺服器管理工具以及視訊遊戲；和設備，例如個人電腦、平板電腦、遊戲和娛樂控制台、其他智慧型設備以及相關配件。該公司的生產力和業務流程部門提供 Microsoft 365 Commercial、企業移動性 + 安全性、Power BI、Exchange、SharePoint、Microsoft Teams、Microsoft 365 安全性和合規性、Microsoft 365 Copilot 以及 Windows Commercial 本地部署和 Office 許可本地部署。该细分市场还提供 Microsoft 365 Consumer 产品",
+        "story": "Microsoft Corporation 是一家技術公司，為全球個人和企業開發並支援一系列技術解決方案。其產品包括作業系統、伺服器應用程式、業務解決方案應用程式、軟體開發工具、桌面和伺服器管理工具以及視訊遊戲；和設備，例如個人電腦、平板電腦、遊戲和娛樂控制台、其他智慧型設備以及相關配件。該公司的生產力和業務流程部門提供 Microsoft 365 Commercial、企業移動性 + 安全性、Power BI、Exchange、SharePoint、Microsoft Teams、Microsoft 365 安全性和合規性、Microsoft 365 Copilot 以及 Windows Commercial 本地部署和 Office 許可本地部署。該細分市場也提供 Microsoft 365 Consumer 產品",
         "estEps": 4.24,
         "actEps": 4.74,
         "surprise": 11.81,
@@ -266,7 +266,7 @@
         "ps": 13.38,
         "evEbitda": 121.22,
         "shortDesc": "Auto Manufacturers",
-        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接銷售和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
+        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
         "estEps": 0.54,
         "actEps": 0.33,
         "surprise": -38.35,
@@ -351,13 +351,13 @@
         "ps": 3.7,
         "evEbitda": 17.33,
         "shortDesc": "Internet Retail",
-        "story": "Amazon.com, Inc. 透過北美和國際的線上和實體商店從事消費品零售、廣告和訂閱服務。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它還提供運算、儲存、人工智慧、資料庫、分析、機器",
+        "story": "Amazon.com, Inc. 通过北美和国际的在线和实体商店从事消费品零售、广告和订阅服务。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，该公司还提供一些计划，使卖家能够在其商店中销售他们的产品；以及允许作者、独立出版商、音乐家、电影制作人、Twitch 主播、技能和应用程序开发人员以及其他人发布和销售内容的程序。此外，它还提供计算、存储、人工智能、数据库、分析、机器",
         "estEps": 1.83,
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 21.39,
-        "epsStd": 1.287,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.64,
+                "est": 1.65,
                 "act": 2.78,
-                "surprise": 69.02,
+                "surprise": 68.18,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -436,13 +436,13 @@
         "ps": 6.09,
         "evEbitda": 12.83,
         "shortDesc": "Internet Content & Information",
-        "story": "Meta Platforms, Inc. 致力於開發產品，使人們能夠在美國、加拿大、歐洲、亞太地區和國際上透過行動裝置、個人電腦、虛擬實境 (VR) 耳機和人工智慧眼鏡與朋友和家人聯繫和分享。它透過兩個部門運作：應用程式家族 (FoA) 和現實實驗室 (RL)。 FoA 部分提供 Facebook，它使人們能夠透過 feed、reels、故事、群組、市場等建立社群； Instagram 透過 Instagram 動態、故事、影片、直播和訊息傳遞拉近人們的距離； Messenger，一個訊息應用程序，供人們透過文字、音訊和視訊通話和通話與朋友、家人、社群和企業聯絡；",
+        "story": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
         "estEps": 7.22,
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 20.58,
-        "epsStd": 0.757,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.3,
-        "epsStd": 2.123,
+        "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.63,
+                "est": 2.67,
                 "act": 5.11,
-                "surprise": 94.3,
+                "surprise": 91.59,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -606,13 +606,13 @@
         "ps": 2.78,
         "evEbitda": -1.79,
         "shortDesc": "Insurance - Diversified",
-        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
+        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、事故保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
         "estEps": 5.13,
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.56,
-        "epsStd": 0.999,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
