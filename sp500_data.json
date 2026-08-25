@@ -102,7 +102,7 @@
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 35.47,
-        "epsStd": 0.054,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.34,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 10.12,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 2.52,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
@@ -267,13 +267,77 @@
         "evEbitda": 125.65,
         "shortDesc": "Auto Manufacturers",
         "story": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
-        "estEps": 0.0,
-        "actEps": 0.0,
-        "surprise": 0.0,
-        "nextEarnings": "待公佈",
+        "estEps": 0.54,
+        "actEps": 0.33,
+        "surprise": -38.35,
+        "nextEarnings": "2026-10-21",
         "fairPe": 332.33,
-        "epsStd": 0.1,
-        "history": []
+        "epsStd": 0.109,
+        "history": [
+            {
+                "quarter": "2026 Q4",
+                "est": 0.45,
+                "act": "-",
+                "surprise": "-",
+                "status": "等待公佈"
+            },
+            {
+                "quarter": "2026 Q3",
+                "est": 0.54,
+                "act": 0.33,
+                "surprise": -38.35,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2026 Q2",
+                "est": 0.35,
+                "act": 0.41,
+                "surprise": 17.15,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2026 Q1",
+                "est": 0.45,
+                "act": 0.5,
+                "surprise": 10.96,
+                "status": "Beat"
+            },
+            {
+                "quarter": "2025 Q4",
+                "est": 0.56,
+                "act": 0.5,
+                "surprise": -10.53,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2025 Q3",
+                "est": 0.4,
+                "act": 0.4,
+                "surprise": -1.11,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2025 Q2",
+                "est": 0.41,
+                "act": 0.27,
+                "surprise": -34.89,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2025 Q1",
+                "est": 0.77,
+                "act": 0.73,
+                "surprise": -5.11,
+                "status": "Miss"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 0.6,
+                "act": 0.72,
+                "surprise": 20.49,
+                "status": "Beat"
+            }
+        ]
     },
     {
         "ticker": "AMZN",
@@ -293,7 +357,7 @@
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 20.8,
-        "epsStd": 1.288,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -311,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 68.18,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
@@ -332,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 26.13,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 17.08,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.36,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.17,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -378,7 +442,7 @@
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 20.7,
-        "epsStd": 2.735,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -396,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 56.79,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
@@ -410,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -84.34,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 20.96,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 23.11,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 18.67,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 13.94,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -463,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.3,
-        "epsStd": 2.12,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -481,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 91.59,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
@@ -511,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 40.1,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
@@ -548,7 +612,7 @@
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.47,
-        "epsStd": 1.005,
+        "epsStd": 0.999,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -605,13 +669,6 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 5.28,
-                "act": 4.68,
-                "surprise": -11.34,
-                "status": "Miss"
             }
         ]
     },
