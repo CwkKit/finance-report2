@@ -6,17 +6,17 @@
         "marketIndex": "S&P 500",
         "price": 208.48,
         "profit": 63.0,
-        "pe": 31.93,
+        "pe": 32.88,
         "pb": 25.83,
         "ps": 19.92,
-        "evEbitda": 31.15,
+        "evEbitda": 30.24,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 1.77,
         "actEps": 1.87,
         "surprise": 5.54,
         "nextEarnings": "2026-08-26",
-        "fairPe": 31.93,
+        "fairPe": 32.88,
         "epsStd": 0.023,
         "history": [
             {
@@ -91,18 +91,18 @@
         "marketIndex": "S&P 500",
         "price": 310.34,
         "profit": 27.6,
-        "pe": 35.59,
+        "pe": 35.47,
         "pb": 42.17,
         "ps": 9.7,
-        "evEbitda": 27.01,
+        "evEbitda": 27.1,
         "shortDesc": "Consumer Electronics",
         "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 35.59,
-        "epsStd": 0.055,
+        "fairPe": 35.47,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 487.31,
         "profit": 40.3,
-        "pe": 27.18,
+        "pe": 26.95,
         "pb": 8.18,
         "ps": 10.9,
         "evEbitda": 18.9,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 27.18,
+        "fairPe": 26.95,
         "epsStd": 0.138,
         "history": [
             {
@@ -261,83 +261,19 @@
         "marketIndex": "S&P 500",
         "price": 348.95,
         "profit": 3.7,
-        "pe": 320.14,
+        "pe": 332.33,
         "pb": 15.86,
         "ps": 13.3,
-        "evEbitda": 130.76,
+        "evEbitda": 125.65,
         "shortDesc": "Auto Manufacturers",
         "story": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
-        "estEps": 0.54,
-        "actEps": 0.33,
-        "surprise": -38.35,
-        "nextEarnings": "2026-10-21",
-        "fairPe": 320.14,
-        "epsStd": 0.109,
-        "history": [
-            {
-                "quarter": "2026 Q4",
-                "est": 0.45,
-                "act": "-",
-                "surprise": "-",
-                "status": "等待公佈"
-            },
-            {
-                "quarter": "2026 Q3",
-                "est": 0.54,
-                "act": 0.33,
-                "surprise": -38.35,
-                "status": "Miss"
-            },
-            {
-                "quarter": "2026 Q2",
-                "est": 0.35,
-                "act": 0.41,
-                "surprise": 17.15,
-                "status": "Beat"
-            },
-            {
-                "quarter": "2026 Q1",
-                "est": 0.45,
-                "act": 0.5,
-                "surprise": 10.96,
-                "status": "Beat"
-            },
-            {
-                "quarter": "2025 Q4",
-                "est": 0.56,
-                "act": 0.5,
-                "surprise": -10.53,
-                "status": "Miss"
-            },
-            {
-                "quarter": "2025 Q3",
-                "est": 0.4,
-                "act": 0.4,
-                "surprise": -1.11,
-                "status": "Miss"
-            },
-            {
-                "quarter": "2025 Q2",
-                "est": 0.41,
-                "act": 0.27,
-                "surprise": -34.89,
-                "status": "Miss"
-            },
-            {
-                "quarter": "2025 Q1",
-                "est": 0.77,
-                "act": 0.73,
-                "surprise": -5.11,
-                "status": "Miss"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 0.6,
-                "act": 0.72,
-                "surprise": 20.49,
-                "status": "Beat"
-            }
-        ]
+        "estEps": 0.0,
+        "actEps": 0.0,
+        "surprise": 0.0,
+        "nextEarnings": "待公佈",
+        "fairPe": 332.33,
+        "epsStd": 0.1,
+        "history": []
     },
     {
         "ticker": "AMZN",
@@ -346,18 +282,18 @@
         "marketIndex": "S&P 500",
         "price": 262.07,
         "profit": 17.4,
-        "pe": 21.07,
+        "pe": 20.8,
         "pb": 5.12,
         "ps": 3.64,
-        "evEbitda": 17.28,
+        "evEbitda": 17.5,
         "shortDesc": "Internet Retail",
         "story": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
         "estEps": 1.83,
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
-        "fairPe": 21.07,
-        "epsStd": 1.287,
+        "fairPe": 20.8,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +311,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.64,
+                "est": 1.65,
                 "act": 2.78,
-                "surprise": 69.02,
+                "surprise": 68.18,
                 "status": "Beat"
             },
             {
@@ -396,30 +332,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -431,18 +367,18 @@
         "marketIndex": "S&P 500",
         "price": 559.02,
         "profit": 29.8,
-        "pe": 21.05,
+        "pe": 20.7,
         "pb": 5.45,
         "ps": 6.24,
-        "evEbitda": 12.98,
+        "evEbitda": 13.19,
         "shortDesc": "Internet Content & Information",
         "story": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
         "estEps": 7.22,
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 21.05,
-        "epsStd": 0.757,
+        "fairPe": 20.7,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +396,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +410,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -516,18 +452,18 @@
         "marketIndex": "S&P 500",
         "price": 348.06,
         "profit": 54.8,
-        "pe": 17.46,
+        "pe": 17.3,
         "pb": 6.84,
         "ps": 9.55,
-        "evEbitda": 23.75,
+        "evEbitda": 23.98,
         "shortDesc": "Internet Content & Information",
         "story": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
         "estEps": 2.9,
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.46,
-        "epsStd": 2.123,
+        "fairPe": 17.3,
+        "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +481,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.63,
+                "est": 2.67,
                 "act": 5.11,
-                "surprise": 94.3,
+                "surprise": 91.59,
                 "status": "Beat"
             },
             {
@@ -575,7 +511,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -601,7 +537,7 @@
         "marketIndex": "S&P 500",
         "price": 504.32,
         "profit": 22.3,
-        "pe": 12.68,
+        "pe": 12.47,
         "pb": 0.0,
         "ps": 2.81,
         "evEbitda": -1.79,
@@ -611,8 +547,8 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.68,
-        "epsStd": 0.999,
+        "fairPe": 12.47,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +605,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
@@ -679,7 +622,7 @@
         "marketIndex": "S&P 500",
         "price": 356.39,
         "profit": 34.9,
-        "pe": 15.27,
+        "pe": 15.06,
         "pb": 2.68,
         "ps": 5.08,
         "evEbitda": 0,
@@ -689,7 +632,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 15.27,
+        "fairPe": 15.06,
         "epsStd": 0.273,
         "history": [
             {
