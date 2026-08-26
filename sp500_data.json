@@ -102,7 +102,7 @@
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 35.58,
-        "epsStd": 0.055,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -351,13 +351,13 @@
         "ps": 3.63,
         "evEbitda": 17.43,
         "shortDesc": "Internet Retail",
-        "story": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
+        "story": "Amazon.com, Inc. 透過北美和國際的線上和實體商店從事消費品零售、廣告和訂閱服務。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、Fire 平板電腦、Fire TV、Echo、Ring、Blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它還提供運算、儲存、人工智慧、資料庫、分析、機器",
         "estEps": 1.83,
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 21.0,
-        "epsStd": 1.287,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.64,
+                "est": 1.65,
                 "act": 2.78,
-                "surprise": 69.02,
+                "surprise": 68.18,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 570.05,
         "profit": 29.8,
-        "pe": 21.05,
+        "pe": 21.46,
         "pb": 5.56,
         "ps": 6.36,
         "evEbitda": 13.45,
@@ -441,8 +441,8 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 21.05,
-        "epsStd": 0.757,
+        "fairPe": 21.46,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.42,
-        "epsStd": 2.123,
+        "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.63,
+                "est": 2.67,
                 "act": 5.11,
-                "surprise": 94.3,
+                "surprise": 91.59,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -612,7 +612,7 @@
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.67,
-        "epsStd": 0.999,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
