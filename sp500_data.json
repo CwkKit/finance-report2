@@ -102,7 +102,7 @@
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 36.62,
-        "epsStd": 0.055,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 513.53,
         "profit": 40.3,
-        "pe": 28.17,
+        "pe": 28.58,
         "pb": 8.62,
         "ps": 11.49,
         "evEbitda": 19.9,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 28.17,
+        "fairPe": 28.58,
         "epsStd": 0.138,
         "history": [
             {
@@ -357,7 +357,7 @@
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 21.42,
-        "epsStd": 1.287,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.64,
+                "est": 1.65,
                 "act": 2.78,
-                "surprise": 69.02,
+                "surprise": 68.18,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 578.02,
         "profit": 29.8,
-        "pe": 21.5,
+        "pe": 21.79,
         "pb": 5.64,
         "ps": 6.45,
         "evEbitda": 13.63,
@@ -441,8 +441,8 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 21.5,
-        "epsStd": 0.757,
+        "fairPe": 21.79,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 17.39,
-        "epsStd": 2.123,
+        "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.63,
+                "est": 2.67,
                 "act": 5.11,
-                "surprise": 94.3,
+                "surprise": 91.59,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -606,13 +606,13 @@
         "ps": 2.81,
         "evEbitda": -1.79,
         "shortDesc": "Insurance - Diversified",
-        "story": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska.",
+        "story": "波克夏海瑟威及其子公司從事保險、鐵路貨運和公用事業業務。該公司提供財產保險、意外傷害保險、人壽保險、意外保險、健康保險和再保險；在北美運營鐵路系統；利用天然氣、煤炭、風能、太陽能、水力發電、核能和地熱源發電、傳輸、儲存和分配電力；經營天然氣分配和儲存設施、州際管道、液化天然氣設施以及壓縮機和計量站；並持有煤礦量權益。它生產盒裝巧克力和其他糖果產品；特殊化學品、金屬切割工具以及航空航天和發電應用零件；預製和",
         "estEps": 5.13,
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.71,
-        "epsStd": 0.999,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
@@ -684,7 +691,7 @@
         "ps": 5.1,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
-        "story": "JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia Pacific, Latin America, and the Caribbean. It operates in three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, and cash management; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, payment solutions, travel services, merchant offers, lifestyle benefits, auto loans, and leases to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. It also provides investment banking, market-making, financing, custody, and securities products and services; corporate strategy and structure advisory, equity and debt market capital-raising, and loan origination and syndication services; cash and derivative instruments, risk management solutions, prime brokerage, clearing, and research; and fund services, liquidity and trading services, and data solutions products for large corporations, financial institutions, merchants, start-ups, small and midsized companies, local governments, municipalities, nonprofits, and commercial real estate clients. In addition, the company offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; retirement products and services, estate planning, lending, deposits, and investment management products to high-net-worth clients; and financial transaction processing. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.",
+        "story": "摩根大通公司是一家銀行和金融控股公司，業務遍及美國、北美其他地區、歐洲、中東、非洲、亞太地區、拉丁美洲和加勒比海地區。該公司分為三個業務部門：消費者與社區銀行業務、商業與投資銀行業務、資產與財富管理業務。該公司提供存款、投資和貸款產品以及現金管理；抵押貸款發放和服務活動；住宅抵押貸款和房屋淨值貸款；透過銀行分行、ATM 機以及數位和電話銀行向消費者和小型企業提供信用卡、支付解決方案、旅行服務、商家優惠、生活方式福利、汽車貸款和租賃。它還提供投資銀行、做市、融資、託管和證券產品等服務。",
         "estEps": 5.8,
         "actEps": 6.14,
         "surprise": 5.86,
