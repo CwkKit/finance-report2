@@ -6,17 +6,17 @@
         "marketIndex": "S&P 500",
         "price": 217.44,
         "profit": 63.7,
-        "pe": 27.52,
+        "pe": 27.49,
         "pb": 26.94,
         "ps": 17.33,
         "evEbitda": 25.92,
         "shortDesc": "Semiconductors",
-        "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+        "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它透過計算和網路以及圖形部門運作。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 27.52,
+        "fairPe": 27.49,
         "epsStd": 0.033,
         "history": [
             {
@@ -91,18 +91,18 @@
         "marketIndex": "S&P 500",
         "price": 325.13,
         "profit": 27.6,
-        "pe": 36.37,
+        "pe": 37.33,
         "pb": 44.18,
         "ps": 10.16,
         "evEbitda": 28.38,
         "shortDesc": "Consumer Electronics",
-        "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 36.37,
-        "epsStd": 0.054,
+        "fairPe": 37.33,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.34,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 10.12,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 2.52,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
@@ -176,17 +176,17 @@
         "marketIndex": "S&P 500",
         "price": 501.02,
         "profit": 40.3,
-        "pe": 28.24,
+        "pe": 27.93,
         "pb": 8.41,
         "ps": 11.21,
         "evEbitda": 19.42,
         "shortDesc": "Software - Infrastructure",
-        "story": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games; and devices, such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. Its Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The company's More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+        "story": "Microsoft Corporation 是一家技術公司，為全球個人和企業開發並支援一系列技術解決方案。其產品包括作業系統、伺服器應用程式、業務解決方案應用程式、軟體開發工具、桌面和伺服器管理工具以及視訊遊戲；和設備，例如個人電腦、平板電腦、遊戲和娛樂控制台、其他智慧型設備以及相關配件。該公司的生產力和業務流程部門提供 Microsoft 365 Commercial、企業移動性 + 安全性、Power BI、Exchange、SharePoint、Microsoft Teams、Microsoft 365 安全性和合規性、Microsoft 365 Copilot 以及 Windows Commercial 本地部署和 Office 許可本地部署。該細分市場也提供 Microsoft 365 Consumer 產品",
         "estEps": 4.24,
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 28.24,
+        "fairPe": 27.93,
         "epsStd": 0.138,
         "history": [
             {
@@ -261,17 +261,17 @@
         "marketIndex": "S&P 500",
         "price": 356.09,
         "profit": 3.7,
-        "pe": 345.72,
+        "pe": 332.79,
         "pb": 16.19,
         "ps": 13.57,
         "evEbitda": 128.28,
         "shortDesc": "Auto Manufacturers",
-        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它还通过直接销售和二手车销售、特斯拉超级充电站网络以及应用内升级来提供轿车和运动型多用途车；购买融资和租赁服务；通过公司自有的服务地点和特斯拉移动服务技术人员为电动汽车提供服务；和车辆有限w",
+        "story": "特斯拉公司在美國、中國和國際上設計、開發、製造、租賃和銷售電動車以及能源發電和儲存系統。該公司分為兩個部門：汽車部門；以及能源生產和儲存。該公司提供電動車，並銷售汽車監管積分；和非保固維修服務和碰撞、汽車保險服務，以及零件銷售和零售商品銷售。它還透過直接銷售和二手車銷售、特斯拉超級充電站網路以及應用程式內升級來提供轎車和運動型多用途車；購買融資和租賃服務；透過公司自有的服務地點和特斯拉移動服務技術人員為電動車提供服務；和車輛有限w",
         "estEps": 0.54,
         "actEps": 0.33,
         "surprise": -39.15,
         "nextEarnings": "2026-10-21",
-        "fairPe": 345.72,
+        "fairPe": 332.79,
         "epsStd": 0.109,
         "history": [
             {
@@ -357,7 +357,7 @@
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 20.49,
-        "epsStd": 1.288,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 68.18,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 26.13,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 17.08,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.36,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.17,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 578.54,
         "profit": 29.8,
-        "pe": 21.78,
+        "pe": 21.79,
         "pb": 5.64,
         "ps": 6.46,
         "evEbitda": 13.64,
@@ -441,8 +441,8 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 21.78,
-        "epsStd": 2.735,
+        "fairPe": 21.79,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 56.79,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -84.34,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 20.96,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 23.11,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 18.67,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 13.94,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 335.02,
         "profit": 54.8,
-        "pe": 17.03,
+        "pe": 16.81,
         "pb": 6.58,
         "ps": 9.19,
         "evEbitda": 23.06,
@@ -526,8 +526,8 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.03,
-        "epsStd": 2.12,
+        "fairPe": 16.81,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 91.59,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 40.1,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
@@ -601,7 +601,7 @@
         "marketIndex": "S&P 500",
         "price": 502.33,
         "profit": 22.3,
-        "pe": 12.68,
+        "pe": 12.63,
         "pb": 0.0,
         "ps": 2.8,
         "evEbitda": -1.79,
@@ -611,8 +611,8 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.68,
-        "epsStd": 1.005,
+        "fairPe": 12.63,
+        "epsStd": 0.999,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,13 +669,6 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 5.28,
-                "act": 4.68,
-                "surprise": -11.34,
-                "status": "Miss"
             }
         ]
     },
@@ -686,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 354.95,
         "profit": 34.9,
-        "pe": 15.25,
+        "pe": 15.19,
         "pb": 2.67,
         "ps": 5.06,
         "evEbitda": 0,
@@ -696,7 +689,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 15.25,
+        "fairPe": 15.19,
         "epsStd": 0.273,
         "history": [
             {
