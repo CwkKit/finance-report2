@@ -6,17 +6,17 @@
         "marketIndex": "S&P 500",
         "price": 230.36,
         "profit": 63.7,
-        "pe": 28.9,
+        "pe": 29.16,
         "pb": 24.29,
         "ps": 18.36,
         "evEbitda": 27.47,
         "shortDesc": "Semiconductors",
-        "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它透過計算和網路以及圖形部門運作。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商",
+        "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 28.9,
+        "fairPe": 29.16,
         "epsStd": 0.033,
         "history": [
             {
@@ -96,7 +96,7 @@
         "ps": 10.0,
         "evEbitda": 27.93,
         "shortDesc": "Consumer Electronics",
-        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
+        "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 616.77,
         "profit": 29.8,
-        "pe": 22.99,
+        "pe": 23.26,
         "pb": 6.02,
         "ps": 6.88,
         "evEbitda": 14.53,
@@ -441,7 +441,7 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 22.99,
+        "fairPe": 23.26,
         "epsStd": 0.757,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 338.46,
         "profit": 54.8,
-        "pe": 16.98,
+        "pe": 16.97,
         "pb": 6.65,
         "ps": 9.28,
         "evEbitda": 23.31,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 16.98,
+        "fairPe": 16.97,
         "epsStd": 2.123,
         "history": [
             {
@@ -601,7 +601,7 @@
         "marketIndex": "S&P 500",
         "price": 506.03,
         "profit": 22.3,
-        "pe": 12.77,
+        "pe": 12.72,
         "pb": 0.0,
         "ps": 2.82,
         "evEbitda": -1.79,
@@ -611,7 +611,7 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.77,
+        "fairPe": 12.72,
         "epsStd": 0.999,
         "history": [
             {
