@@ -11,7 +11,7 @@
         "ps": 18.36,
         "evEbitda": 27.47,
         "shortDesc": "Semiconductors",
-        "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+        "story": "NVIDIA Corporation 在美國、台灣、中國、香港、歐洲和國際上作為資料中心規模的人工智慧基礎設施公司運作。它透過計算和網路以及圖形部門運作。運算和網路部門提供資料中心加速運算和網路平台、人工智慧解決方案和軟體、汽車平台以及自動駕駛和電動車解決方案（包括軟體）。圖形部分提供用於遊戲和 PC 的 GeForce GPU；適用於企業工作站圖形的 Quadro/NVIDIA RTX GPU。該公司的產品用於遊戲、專業視覺化、資料中心和汽車市場。其產品銷售給原始設備製造商、原始設備製造商、系統整合商",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
@@ -96,13 +96,13 @@
         "ps": 10.0,
         "evEbitda": 27.93,
         "shortDesc": "Consumer Electronics",
-        "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+        "story": "蘋果公司在全球設計、製造和銷售智慧型手機、個人電腦、平板電腦、穿戴式裝置和配件。該公司提供 iPhone 等一系列智慧型手機； Mac，一系列個人電腦； iPad，一系列多功能平板電腦；穿戴式裝置、家居和配件，包括 AirPods、Apple Vision Pro、Apple TV、Apple Watch、Beats 產品和 HomePod，以及 Apple 品牌和第三方配件。它還提供AppleCare支援和雲端服務；並經營各種平台，包括允許客戶發現和下載應用程式和數位內容（例如書籍、音樂、視訊、遊戲和播客）的應用程式商店，以及包括第三方授權安排和自己的廣告平台在內的廣告服務。此外，",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
         "fairPe": 36.61,
-        "epsStd": 0.054,
+        "epsStd": 0.055,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.34,
+                "surprise": 6.25,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 10.12,
+                "surprise": 9.48,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.34,
+                "est": 2.35,
                 "act": 2.4,
-                "surprise": 2.52,
+                "surprise": 2.26,
                 "status": "Beat"
             },
             {
@@ -351,13 +351,13 @@
         "ps": 3.59,
         "evEbitda": 17.27,
         "shortDesc": "Internet Retail",
-        "story": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
+        "story": "Amazon.com, Inc. 透過北美和國際的線上和實體店從事消費品零售、廣告和訂閱服務。該公司透過三個部門運作：北美部門、國際部門和亞馬遜網路服務部門 (AWS)。它還生產和銷售電子設備，包括 Kindle、fire 平板電腦、fire TV、echo、ring、blink 和 eero；並開發和製作媒體內容。此外，該公司還提供一些計劃，使賣家能夠在其商店中銷售他們的產品；以及允許作者、獨立出版商、音樂家、電影製作人、Twitch 主播、技能和應用程式開發人員以及其他人發布和銷售內容的程式。此外，它還提供運算、儲存、人工智慧、資料庫、分析、機器",
         "estEps": 1.83,
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
         "fairPe": 20.8,
-        "epsStd": 1.288,
+        "epsStd": 1.287,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -375,9 +375,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 1.65,
+                "est": 1.64,
                 "act": 2.78,
-                "surprise": 68.18,
+                "surprise": 69.02,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.33,
+                "est": 1.32,
                 "act": 1.68,
-                "surprise": 26.13,
+                "surprise": 27.19,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 17.08,
+                "surprise": 16.77,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.36,
+                "surprise": 25.29,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.17,
+                "surprise": 25.22,
                 "status": "Beat"
             }
         ]
@@ -442,7 +442,7 @@
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
         "fairPe": 23.26,
-        "epsStd": 2.735,
+        "epsStd": 0.757,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.66,
-                "act": 10.44,
-                "surprise": 56.79,
+                "est": 6.82,
+                "act": 7.31,
+                "surprise": 7.2,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.71,
-                "act": 1.05,
-                "surprise": -84.34,
-                "status": "Miss"
+                "est": 6.67,
+                "act": 7.25,
+                "surprise": 8.66,
+                "status": "Beat"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.9,
+                "est": 5.86,
                 "act": 7.14,
-                "surprise": 20.96,
+                "surprise": 21.82,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.22,
+                "est": 5.21,
                 "act": 6.43,
-                "surprise": 23.11,
+                "surprise": 23.53,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.76,
+                "est": 6.74,
                 "act": 8.02,
-                "surprise": 18.67,
+                "surprise": 19.0,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.29,
+                "est": 5.3,
                 "act": 6.03,
-                "surprise": 13.94,
+                "surprise": 13.86,
                 "status": "Beat"
             }
         ]
@@ -527,7 +527,7 @@
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
         "fairPe": 16.97,
-        "epsStd": 2.12,
+        "epsStd": 2.123,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -545,9 +545,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 2.67,
+                "est": 2.63,
                 "act": 5.11,
-                "surprise": 91.59,
+                "surprise": 94.3,
                 "status": "Beat"
             },
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 40.1,
+                "surprise": 39.84,
                 "status": "Beat"
             },
             {
@@ -612,7 +612,7 @@
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
         "fairPe": 12.72,
-        "epsStd": 1.005,
+        "epsStd": 0.999,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,13 +669,6 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 5.28,
-                "act": 4.68,
-                "surprise": -11.34,
-                "status": "Miss"
             }
         ]
     },
