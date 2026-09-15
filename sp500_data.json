@@ -6,7 +6,7 @@
         "marketIndex": "S&P 500",
         "price": 210.96,
         "profit": 63.7,
-        "pe": 26.7,
+        "pe": 26.67,
         "pb": 22.25,
         "ps": 16.81,
         "evEbitda": 25.14,
@@ -16,7 +16,7 @@
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 26.7,
+        "fairPe": 26.67,
         "epsStd": 0.033,
         "history": [
             {
@@ -94,7 +94,7 @@
         "pe": 38.24,
         "pb": 45.26,
         "ps": 10.41,
-        "evEbitda": 29.0,
+        "evEbitda": 29.07,
         "shortDesc": "Consumer Electronics",
         "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
         "estEps": 1.89,
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 253.54,
         "profit": 17.4,
-        "pe": 20.4,
+        "pe": 20.41,
         "pb": 4.96,
         "ps": 3.53,
         "evEbitda": 16.95,
@@ -356,7 +356,7 @@
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
-        "fairPe": 20.4,
+        "fairPe": 20.41,
         "epsStd": 1.287,
         "history": [
             {
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 665.6,
         "profit": 29.8,
-        "pe": 25.05,
+        "pe": 25.06,
         "pb": 6.49,
         "ps": 7.43,
         "evEbitda": 15.66,
@@ -441,7 +441,7 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 25.05,
+        "fairPe": 25.06,
         "epsStd": 0.757,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 349.39,
         "profit": 54.8,
-        "pe": 17.52,
+        "pe": 17.54,
         "pb": 6.86,
         "ps": 9.58,
         "evEbitda": 24.08,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.52,
+        "fairPe": 17.54,
         "epsStd": 2.123,
         "history": [
             {
@@ -679,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 350.13,
         "profit": 34.9,
-        "pe": 15.01,
+        "pe": 14.99,
         "pb": 2.63,
         "ps": 5.0,
         "evEbitda": 0,
@@ -689,7 +689,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 15.01,
+        "fairPe": 14.99,
         "epsStd": 0.273,
         "history": [
             {
