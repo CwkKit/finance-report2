@@ -6,7 +6,7 @@
         "marketIndex": "S&P 500",
         "price": 219.34,
         "profit": 63.7,
-        "pe": 27.01,
+        "pe": 27.69,
         "pb": 23.13,
         "ps": 17.48,
         "evEbitda": 26.15,
@@ -16,7 +16,7 @@
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 27.01,
+        "fairPe": 27.69,
         "epsStd": 0.033,
         "history": [
             {
@@ -679,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 349.31,
         "profit": 34.9,
-        "pe": 14.95,
+        "pe": 14.97,
         "pb": 2.63,
         "ps": 4.98,
         "evEbitda": 0,
@@ -689,7 +689,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 14.95,
+        "fairPe": 14.97,
         "epsStd": 0.273,
         "history": [
             {
