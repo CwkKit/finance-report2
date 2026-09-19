@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 493.78,
         "profit": 40.3,
-        "pe": 27.69,
+        "pe": 27.48,
         "pb": 8.29,
         "ps": 11.05,
         "evEbitda": 19.14,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 27.69,
+        "fairPe": 27.48,
         "epsStd": 0.138,
         "history": [
             {
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 253.71,
         "profit": 17.4,
-        "pe": 20.2,
+        "pe": 20.41,
         "pb": 4.96,
         "ps": 3.53,
         "evEbitda": 16.96,
@@ -356,7 +356,7 @@
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
-        "fairPe": 20.2,
+        "fairPe": 20.41,
         "epsStd": 1.287,
         "history": [
             {
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 665.75,
         "profit": 29.8,
-        "pe": 25.7,
+        "pe": 25.07,
         "pb": 6.49,
         "ps": 7.43,
         "evEbitda": 15.67,
@@ -441,7 +441,7 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 25.7,
+        "fairPe": 25.07,
         "epsStd": 0.757,
         "history": [
             {
@@ -531,7 +531,7 @@
         "history": [
             {
                 "quarter": "2026 Q4",
-                "est": 3.01,
+                "est": 3.02,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
@@ -679,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 349.67,
         "profit": 34.9,
-        "pe": 14.97,
+        "pe": 14.99,
         "pb": 2.63,
         "ps": 4.99,
         "evEbitda": 0,
@@ -689,12 +689,12 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 14.97,
+        "fairPe": 14.99,
         "epsStd": 0.273,
         "history": [
             {
                 "quarter": "2026 Q4",
-                "est": 5.89,
+                "est": 5.88,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
