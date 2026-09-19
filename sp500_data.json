@@ -6,17 +6,17 @@
         "marketIndex": "S&P 500",
         "price": 222.27,
         "profit": 63.7,
-        "pe": 28.06,
+        "pe": 27.71,
         "pb": 23.44,
         "ps": 17.72,
-        "evEbitda": 26.15,
+        "evEbitda": 26.5,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 28.06,
+        "fairPe": 27.71,
         "epsStd": 0.033,
         "history": [
             {
@@ -91,7 +91,7 @@
         "marketIndex": "S&P 500",
         "price": 336.13,
         "profit": 27.6,
-        "pe": 38.5,
+        "pe": 38.59,
         "pb": 45.67,
         "ps": 10.51,
         "evEbitda": 29.34,
@@ -101,7 +101,7 @@
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 38.5,
+        "fairPe": 38.59,
         "epsStd": 0.055,
         "history": [
             {
@@ -176,17 +176,17 @@
         "marketIndex": "S&P 500",
         "price": 493.78,
         "profit": 40.3,
-        "pe": 27.48,
+        "pe": 27.69,
         "pb": 8.29,
         "ps": 11.05,
-        "evEbitda": 19.3,
+        "evEbitda": 19.14,
         "shortDesc": "Software - Infrastructure",
         "story": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games; and devices, such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. Its Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The company's More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington.",
         "estEps": 4.24,
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 27.48,
+        "fairPe": 27.69,
         "epsStd": 0.138,
         "history": [
             {
@@ -264,7 +264,7 @@
         "pe": 343.65,
         "pb": 16.56,
         "ps": 13.88,
-        "evEbitda": 131.29,
+        "evEbitda": 131.28,
         "shortDesc": "Auto Manufacturers",
         "story": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
         "estEps": 0.54,
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 253.71,
         "profit": 17.4,
-        "pe": 20.41,
+        "pe": 20.2,
         "pb": 4.96,
         "ps": 3.53,
         "evEbitda": 16.96,
@@ -356,7 +356,7 @@
         "actEps": 5.75,
         "surprise": 215.02,
         "nextEarnings": "2026-10-29",
-        "fairPe": 20.41,
+        "fairPe": 20.2,
         "epsStd": 1.287,
         "history": [
             {
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 665.75,
         "profit": 29.8,
-        "pe": 25.08,
+        "pe": 25.7,
         "pb": 6.49,
         "ps": 7.43,
         "evEbitda": 15.67,
@@ -441,7 +441,7 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 25.08,
+        "fairPe": 25.7,
         "epsStd": 0.757,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 349.54,
         "profit": 54.8,
-        "pe": 17.53,
+        "pe": 17.42,
         "pb": 6.87,
         "ps": 9.59,
         "evEbitda": 24.09,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.53,
+        "fairPe": 17.42,
         "epsStd": 2.123,
         "history": [
             {
@@ -601,7 +601,7 @@
         "marketIndex": "S&P 500",
         "price": 509.77,
         "profit": 22.3,
-        "pe": 12.82,
+        "pe": 12.81,
         "pb": 0.0,
         "ps": 2.84,
         "evEbitda": -1.79,
@@ -611,7 +611,7 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.82,
+        "fairPe": 12.81,
         "epsStd": 0.999,
         "history": [
             {
@@ -679,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 349.67,
         "profit": 34.9,
-        "pe": 14.99,
+        "pe": 14.97,
         "pb": 2.63,
         "ps": 4.99,
         "evEbitda": 0,
@@ -689,7 +689,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 14.99,
+        "fairPe": 14.97,
         "epsStd": 0.273,
         "history": [
             {
