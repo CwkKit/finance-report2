@@ -9,7 +9,7 @@
         "pe": 28.5,
         "pb": 23.68,
         "ps": 17.9,
-        "evEbitda": 26.76,
+        "evEbitda": 26.77,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
@@ -276,7 +276,7 @@
         "history": [
             {
                 "quarter": "2026 Q4",
-                "est": 0.45,
+                "est": 0.46,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 777.59,
         "profit": 29.8,
-        "pe": 29.28,
+        "pe": 28.01,
         "pb": 7.58,
         "ps": 8.68,
         "evEbitda": 18.27,
@@ -441,7 +441,7 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 29.28,
+        "fairPe": 28.01,
         "epsStd": 0.757,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 342.36,
         "profit": 54.8,
-        "pe": 17.18,
+        "pe": 16.95,
         "pb": 6.73,
         "ps": 9.39,
         "evEbitda": 23.58,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.18,
+        "fairPe": 16.95,
         "epsStd": 2.123,
         "history": [
             {
@@ -694,7 +694,7 @@
         "history": [
             {
                 "quarter": "2026 Q4",
-                "est": 5.89,
+                "est": 5.91,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
