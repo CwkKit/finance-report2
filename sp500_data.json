@@ -6,7 +6,7 @@
         "marketIndex": "S&P 500",
         "price": 228.86,
         "profit": 63.7,
-        "pe": 28.97,
+        "pe": 28.5,
         "pb": 24.13,
         "ps": 18.24,
         "evEbitda": 27.29,
@@ -16,7 +16,7 @@
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 28.97,
+        "fairPe": 28.5,
         "epsStd": 0.033,
         "history": [
             {
@@ -91,7 +91,7 @@
         "marketIndex": "S&P 500",
         "price": 338.4,
         "profit": 27.6,
-        "pe": 38.76,
+        "pe": 39.08,
         "pb": 45.98,
         "ps": 10.58,
         "evEbitda": 29.54,
@@ -101,8 +101,8 @@
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 38.76,
-        "epsStd": 0.055,
+        "fairPe": 39.08,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -261,7 +261,7 @@
         "marketIndex": "S&P 500",
         "price": 357.45,
         "profit": 3.7,
-        "pe": 330.97,
+        "pe": 343.7,
         "pb": 16.25,
         "ps": 13.62,
         "evEbitda": 128.78,
@@ -271,7 +271,7 @@
         "actEps": 0.33,
         "surprise": -39.15,
         "nextEarnings": "2026-10-21",
-        "fairPe": 330.97,
+        "fairPe": 343.7,
         "epsStd": 0.109,
         "history": [
             {
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 246.15,
         "profit": 17.4,
-        "pe": 19.8,
+        "pe": 20.08,
         "pb": 4.81,
         "ps": 3.42,
         "evEbitda": 16.48,
@@ -354,10 +354,10 @@
         "story": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
         "estEps": 1.83,
         "actEps": 5.75,
-        "surprise": 215.02,
+        "surprise": 214.89,
         "nextEarnings": "2026-10-29",
-        "fairPe": 19.8,
-        "epsStd": 1.287,
+        "fairPe": 20.08,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -370,7 +370,7 @@
                 "quarter": "2026 Q3",
                 "est": 1.83,
                 "act": 5.75,
-                "surprise": 215.02,
+                "surprise": 214.89,
                 "status": "Beat"
             },
             {
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 715.62,
         "profit": 29.8,
-        "pe": 26.97,
+        "pe": 28.33,
         "pb": 6.98,
         "ps": 7.99,
         "evEbitda": 16.83,
@@ -441,8 +441,8 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-28",
-        "fairPe": 26.97,
-        "epsStd": 0.757,
+        "fairPe": 28.33,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 342.75,
         "profit": 54.8,
-        "pe": 17.21,
+        "pe": 17.27,
         "pb": 6.73,
         "ps": 9.4,
         "evEbitda": 23.61,
@@ -526,12 +526,12 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.21,
+        "fairPe": 17.27,
         "epsStd": 2.12,
         "history": [
             {
                 "quarter": "2026 Q4",
-                "est": 3.02,
+                "est": 3.03,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -601,7 +601,7 @@
         "marketIndex": "S&P 500",
         "price": 503.09,
         "profit": 22.3,
-        "pe": 12.65,
+        "pe": 12.71,
         "pb": 0.0,
         "ps": 2.8,
         "evEbitda": -1.79,
@@ -611,8 +611,8 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.65,
-        "epsStd": 0.999,
+        "fairPe": 12.71,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
