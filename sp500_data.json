@@ -6,7 +6,7 @@
         "marketIndex": "S&P 500",
         "price": 230.86,
         "profit": 63.7,
-        "pe": 28.89,
+        "pe": 29.15,
         "pb": 24.34,
         "ps": 18.4,
         "evEbitda": 27.53,
@@ -16,7 +16,7 @@
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 28.89,
+        "fairPe": 29.15,
         "epsStd": 0.033,
         "history": [
             {
@@ -91,7 +91,7 @@
         "marketIndex": "S&P 500",
         "price": 330.32,
         "profit": 27.6,
-        "pe": 38.19,
+        "pe": 37.88,
         "pb": 44.88,
         "ps": 10.33,
         "evEbitda": 28.83,
@@ -101,7 +101,7 @@
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-10-29",
-        "fairPe": 38.19,
+        "fairPe": 37.88,
         "epsStd": 0.055,
         "history": [
             {
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 248.23,
         "profit": 17.4,
-        "pe": 20.03,
+        "pe": 19.95,
         "pb": 4.85,
         "ps": 3.45,
         "evEbitda": 16.61,
@@ -356,7 +356,7 @@
         "actEps": 5.75,
         "surprise": 214.89,
         "nextEarnings": "2026-10-29",
-        "fairPe": 20.03,
+        "fairPe": 19.95,
         "epsStd": 1.287,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 338.24,
         "profit": 54.8,
-        "pe": 17.27,
+        "pe": 16.98,
         "pb": 6.65,
         "ps": 9.28,
         "evEbitda": 23.29,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.27,
+        "fairPe": 16.98,
         "epsStd": 2.12,
         "history": [
             {
@@ -601,7 +601,7 @@
         "marketIndex": "S&P 500",
         "price": 500.5,
         "profit": 22.3,
-        "pe": 12.52,
+        "pe": 12.58,
         "pb": 0.0,
         "ps": 2.79,
         "evEbitda": -1.79,
@@ -611,7 +611,7 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 12.52,
+        "fairPe": 12.58,
         "epsStd": 0.999,
         "history": [
             {
@@ -679,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 333.18,
         "profit": 34.9,
-        "pe": 14.18,
+        "pe": 14.26,
         "pb": 2.5,
         "ps": 4.75,
         "evEbitda": 0,
@@ -689,7 +689,7 @@
         "actEps": 6.14,
         "surprise": 5.86,
         "nextEarnings": "2026-10-13",
-        "fairPe": 14.18,
+        "fairPe": 14.26,
         "epsStd": 0.273,
         "history": [
             {
