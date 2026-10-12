@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 535.07,
         "profit": 40.3,
-        "pe": 29.11,
+        "pe": 29.81,
         "pb": 8.98,
         "ps": 11.97,
         "evEbitda": 20.72,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 29.11,
+        "fairPe": 29.81,
         "epsStd": 0.138,
         "history": [
             {
