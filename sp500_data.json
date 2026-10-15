@@ -11,7 +11,7 @@
         "ps": 17.64,
         "evEbitda": 26.38,
         "shortDesc": "Semiconductors",
-        "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+        "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
@@ -261,7 +261,7 @@
         "marketIndex": "S&P 500",
         "price": 367.16,
         "profit": 3.7,
-        "pe": 339.96,
+        "pe": 346.38,
         "pb": 16.69,
         "ps": 13.99,
         "evEbitda": 132.34,
@@ -271,7 +271,7 @@
         "actEps": 0.33,
         "surprise": -39.15,
         "nextEarnings": "2026-10-21",
-        "fairPe": 339.96,
+        "fairPe": 346.38,
         "epsStd": 0.109,
         "history": [
             {
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 254.08,
         "profit": 17.4,
-        "pe": 20.44,
+        "pe": 20.81,
         "pb": 4.97,
         "ps": 3.53,
         "evEbitda": 16.99,
@@ -356,7 +356,7 @@
         "actEps": 5.75,
         "surprise": 214.89,
         "nextEarnings": "2026-10-29",
-        "fairPe": 20.44,
+        "fairPe": 20.81,
         "epsStd": 1.288,
         "history": [
             {
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 737.54,
         "profit": 29.8,
-        "pe": 27.79,
+        "pe": 28.73,
         "pb": 7.19,
         "ps": 8.23,
         "evEbitda": 17.34,
@@ -441,7 +441,7 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-21",
-        "fairPe": 27.79,
+        "fairPe": 28.73,
         "epsStd": 2.735,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 347.64,
         "profit": 54.8,
-        "pe": 17.44,
+        "pe": 17.75,
         "pb": 6.83,
         "ps": 9.54,
         "evEbitda": 23.95,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.44,
+        "fairPe": 17.75,
         "epsStd": 2.12,
         "history": [
             {
