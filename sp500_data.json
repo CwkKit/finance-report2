@@ -6,7 +6,7 @@
         "marketIndex": "S&P 500",
         "price": 217.23,
         "profit": 63.7,
-        "pe": 28.36,
+        "pe": 27.46,
         "pb": 22.91,
         "ps": 17.31,
         "evEbitda": 25.89,
@@ -16,7 +16,7 @@
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 28.36,
+        "fairPe": 27.46,
         "epsStd": 0.033,
         "history": [
             {
@@ -91,7 +91,7 @@
         "marketIndex": "S&P 500",
         "price": 342.0,
         "profit": 27.6,
-        "pe": 39.13,
+        "pe": 39.22,
         "pb": 46.47,
         "ps": 10.69,
         "evEbitda": 29.85,
@@ -101,8 +101,8 @@
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-11-02",
-        "fairPe": 39.13,
-        "epsStd": 0.055,
+        "fairPe": 39.22,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 539.44,
         "profit": 40.3,
-        "pe": 30.27,
+        "pe": 30.39,
         "pb": 9.06,
         "ps": 12.07,
         "evEbitda": 20.89,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 30.27,
+        "fairPe": 30.39,
         "epsStd": 0.138,
         "history": [
             {
@@ -261,7 +261,7 @@
         "marketIndex": "S&P 500",
         "price": 362.44,
         "profit": 3.7,
-        "pe": 341.92,
+        "pe": 348.5,
         "pb": 16.48,
         "ps": 13.81,
         "evEbitda": 130.61,
@@ -271,7 +271,7 @@
         "actEps": 0.33,
         "surprise": -39.15,
         "nextEarnings": "2026-10-21",
-        "fairPe": 341.92,
+        "fairPe": 348.5,
         "epsStd": 0.109,
         "history": [
             {
@@ -357,7 +357,7 @@
         "surprise": 214.89,
         "nextEarnings": "2026-10-29",
         "fairPe": 20.8,
-        "epsStd": 1.287,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -396,30 +396,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 736.72,
         "profit": 29.8,
-        "pe": 28.7,
+        "pe": 28.73,
         "pb": 7.19,
         "ps": 8.22,
         "evEbitda": 17.32,
@@ -441,8 +441,8 @@
         "actEps": 6.18,
         "surprise": -14.42,
         "nextEarnings": "2026-10-21",
-        "fairPe": 28.7,
-        "epsStd": 0.757,
+        "fairPe": 28.73,
+        "epsStd": 2.735,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -460,9 +460,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +474,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 349.22,
         "profit": 54.8,
-        "pe": 17.84,
+        "pe": 17.75,
         "pb": 6.86,
         "ps": 9.58,
         "evEbitda": 24.07,
@@ -526,7 +526,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.84,
+        "fairPe": 17.75,
         "epsStd": 2.12,
         "history": [
             {
@@ -575,7 +575,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -601,7 +601,7 @@
         "marketIndex": "S&P 500",
         "price": 525.68,
         "profit": 22.3,
-        "pe": 13.08,
+        "pe": 13.22,
         "pb": 0.0,
         "ps": 2.93,
         "evEbitda": -1.79,
@@ -611,8 +611,8 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 13.08,
-        "epsStd": 0.999,
+        "fairPe": 13.22,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +669,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
@@ -679,7 +686,7 @@
         "marketIndex": "S&P 500",
         "price": 335.53,
         "profit": 34.6,
-        "pe": 13.9,
+        "pe": 14.07,
         "pb": 2.54,
         "ps": 4.67,
         "evEbitda": 0,
@@ -689,7 +696,7 @@
         "actEps": 5.75,
         "surprise": -3.24,
         "nextEarnings": "2027-01-14",
-        "fairPe": 13.9,
+        "fairPe": 14.07,
         "epsStd": 0.333,
         "history": [
             {
