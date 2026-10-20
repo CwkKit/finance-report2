@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 533.52,
         "profit": 40.3,
-        "pe": 29.48,
+        "pe": 29.72,
         "pb": 8.96,
         "ps": 11.94,
         "evEbitda": 20.66,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 29.48,
+        "fairPe": 29.72,
         "epsStd": 0.138,
         "history": [
             {
@@ -446,7 +446,7 @@
         "history": [
             {
                 "quarter": "2026 Q4",
-                "est": 5.64,
+                "est": 5.54,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
@@ -694,7 +694,7 @@
         "history": [
             {
                 "quarter": "2027 Q1",
-                "est": 5.92,
+                "est": 5.9,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
