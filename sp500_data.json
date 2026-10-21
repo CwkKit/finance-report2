@@ -4,19 +4,19 @@
         "name": "NVIDIA Corporation",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 221.63,
+        "price": 221.97,
         "profit": 63.7,
-        "pe": 28.02,
-        "pb": 23.37,
-        "ps": 17.66,
-        "evEbitda": 25.8,
+        "pe": 28.06,
+        "pb": 23.41,
+        "ps": 17.69,
+        "evEbitda": 26.45,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 28.02,
+        "fairPe": 28.06,
         "epsStd": 0.033,
         "history": [
             {
@@ -89,20 +89,20 @@
         "name": "Apple Inc.",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 344.43,
+        "price": 343.99,
         "profit": 27.6,
-        "pe": 39.5,
-        "pb": 46.8,
-        "ps": 10.77,
-        "evEbitda": 29.63,
+        "pe": 39.45,
+        "pb": 46.74,
+        "ps": 10.75,
+        "evEbitda": 30.02,
         "shortDesc": "Consumer Electronics",
         "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
         "estEps": 1.89,
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-11-02",
-        "fairPe": 39.5,
-        "epsStd": 0.055,
+        "fairPe": 39.45,
+        "epsStd": 0.054,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -129,7 +129,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -143,7 +143,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -155,9 +155,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             },
             {
@@ -174,9 +174,9 @@
         "name": "Microsoft Corporation",
         "sector": "Technology",
         "marketIndex": "S&P 500",
-        "price": 533.05,
+        "price": 532.95,
         "profit": 40.3,
-        "pe": 29.7,
+        "pe": 29.69,
         "pb": 8.95,
         "ps": 11.93,
         "evEbitda": 20.6,
@@ -186,7 +186,7 @@
         "actEps": 4.74,
         "surprise": 11.81,
         "nextEarnings": "2026-10-28",
-        "fairPe": 29.7,
+        "fairPe": 29.69,
         "epsStd": 0.138,
         "history": [
             {
@@ -259,9 +259,9 @@
         "name": "Tesla, Inc.",
         "sector": "Consumer Cyclical",
         "marketIndex": "S&P 500",
-        "price": 386.51,
+        "price": 386.47,
         "profit": 3.7,
-        "pe": 357.88,
+        "pe": 357.84,
         "pb": 17.57,
         "ps": 14.73,
         "evEbitda": 134.75,
@@ -270,17 +270,10 @@
         "estEps": 0.54,
         "actEps": 0.33,
         "surprise": -39.15,
-        "nextEarnings": "2026-10-21",
-        "fairPe": 357.88,
+        "nextEarnings": "待公佈",
+        "fairPe": 357.84,
         "epsStd": 0.109,
         "history": [
-            {
-                "quarter": "2026 Q4",
-                "est": 0.45,
-                "act": "-",
-                "surprise": "-",
-                "status": "等待公佈"
-            },
             {
                 "quarter": "2026 Q3",
                 "est": 0.54,
@@ -344,10 +337,10 @@
         "name": "Amazon.com, Inc.",
         "sector": "Consumer Cyclical",
         "marketIndex": "S&P 500",
-        "price": 262.76,
+        "price": 262.37,
         "profit": 17.4,
-        "pe": 21.14,
-        "pb": 5.14,
+        "pe": 21.11,
+        "pb": 5.13,
         "ps": 3.65,
         "evEbitda": 17.53,
         "shortDesc": "Internet Retail",
@@ -356,8 +349,8 @@
         "actEps": 5.75,
         "surprise": 214.89,
         "nextEarnings": "2026-10-29",
-        "fairPe": 21.14,
-        "epsStd": 1.287,
+        "fairPe": 21.11,
+        "epsStd": 1.288,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -396,30 +389,30 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
                 "est": 1.14,
                 "act": 1.43,
-                "surprise": 25.22,
+                "surprise": 25.17,
                 "status": "Beat"
             }
         ]
@@ -429,28 +422,21 @@
         "name": "Meta Platforms, Inc.",
         "sector": "Communication Services",
         "marketIndex": "S&P 500",
-        "price": 702.15,
+        "price": 697.52,
         "profit": 29.8,
-        "pe": 26.46,
-        "pb": 6.85,
-        "ps": 7.84,
+        "pe": 26.28,
+        "pb": 6.8,
+        "ps": 7.79,
         "evEbitda": 16.33,
         "shortDesc": "Internet Content & Information",
         "story": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
         "estEps": 7.22,
         "actEps": 6.18,
         "surprise": -14.42,
-        "nextEarnings": "2026-10-21",
-        "fairPe": 26.46,
-        "epsStd": 0.757,
+        "nextEarnings": "待公佈",
+        "fairPe": 26.28,
+        "epsStd": 2.735,
         "history": [
-            {
-                "quarter": "2026 Q4",
-                "est": 5.46,
-                "act": "-",
-                "surprise": "-",
-                "status": "等待公佈"
-            },
             {
                 "quarter": "2026 Q3",
                 "est": 7.22,
@@ -460,9 +446,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -474,37 +460,37 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             },
             {
                 "quarter": "2024 Q4",
-                "est": 5.3,
+                "est": 5.29,
                 "act": 6.03,
-                "surprise": 13.86,
+                "surprise": 13.94,
                 "status": "Beat"
             }
         ]
@@ -514,19 +500,19 @@
         "name": "Alphabet Inc.",
         "sector": "Communication Services",
         "marketIndex": "S&P 500",
-        "price": 334.97,
+        "price": 334.76,
         "profit": 54.8,
-        "pe": 16.81,
+        "pe": 16.8,
         "pb": 6.58,
-        "ps": 9.19,
-        "evEbitda": 23.43,
+        "ps": 9.18,
+        "evEbitda": 23.04,
         "shortDesc": "Internet Content & Information",
         "story": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
         "estEps": 2.9,
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 16.81,
+        "fairPe": 16.8,
         "epsStd": 2.12,
         "history": [
             {
@@ -575,7 +561,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -599,11 +585,11 @@
         "name": "Berkshire Hathaway Inc. New",
         "sector": "Financial Services",
         "marketIndex": "S&P 500",
-        "price": 542.12,
+        "price": 538.99,
         "profit": 22.3,
-        "pe": 13.63,
+        "pe": 13.56,
         "pb": 0.0,
-        "ps": 3.02,
+        "ps": 3.0,
         "evEbitda": -1.79,
         "shortDesc": "Insurance - Diversified",
         "story": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska.",
@@ -611,8 +597,8 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 13.63,
-        "epsStd": 0.999,
+        "fairPe": 13.56,
+        "epsStd": 1.005,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -669,6 +655,13 @@
                 "act": 6.73,
                 "surprise": 60.69,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2024 Q4",
+                "est": 5.28,
+                "act": 4.68,
+                "surprise": -11.34,
+                "status": "Miss"
             }
         ]
     },
@@ -677,11 +670,11 @@
         "name": "JP Morgan Chase & Co.",
         "sector": "Financial Services",
         "marketIndex": "S&P 500",
-        "price": 334.7,
+        "price": 335.19,
         "profit": 34.6,
-        "pe": 14.04,
+        "pe": 14.06,
         "pb": 2.53,
-        "ps": 4.66,
+        "ps": 4.67,
         "evEbitda": 0,
         "shortDesc": "Banks - Diversified",
         "story": "JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia Pacific, Latin America, and the Caribbean. It operates in three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, and cash management; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, payment solutions, travel services, merchant offers, lifestyle benefits, auto loans, and leases to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. It also provides investment banking, market-making, financing, custody, and securities products and services; corporate strategy and structure advisory, equity and debt market capital-raising, and loan origination and syndication services; cash and derivative instruments, risk management solutions, prime brokerage, clearing, and research; and fund services, liquidity and trading services, and data solutions products for large corporations, financial institutions, merchants, start-ups, small and midsized companies, local governments, municipalities, nonprofits, and commercial real estate clients. In addition, the company offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; retirement products and services, estate planning, lending, deposits, and investment management products to high-net-worth clients; and financial transaction processing. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.",
@@ -689,7 +682,7 @@
         "actEps": 5.75,
         "surprise": -3.24,
         "nextEarnings": "2027-01-14",
-        "fairPe": 14.04,
+        "fairPe": 14.06,
         "epsStd": 0.333,
         "history": [
             {
