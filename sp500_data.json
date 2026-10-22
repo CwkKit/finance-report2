@@ -6,17 +6,17 @@
         "marketIndex": "S&P 500",
         "price": 221.97,
         "profit": 63.7,
-        "pe": 27.37,
+        "pe": 28.06,
         "pb": 23.41,
         "ps": 17.69,
-        "evEbitda": 26.45,
+        "evEbitda": 26.46,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 27.37,
+        "fairPe": 28.06,
         "epsStd": 0.033,
         "history": [
             {
@@ -91,7 +91,7 @@
         "marketIndex": "S&P 500",
         "price": 343.99,
         "profit": 27.6,
-        "pe": 38.91,
+        "pe": 39.45,
         "pb": 46.74,
         "ps": 10.75,
         "evEbitda": 30.02,
@@ -101,7 +101,7 @@
         "actEps": 2.02,
         "surprise": 6.74,
         "nextEarnings": "2026-11-02",
-        "fairPe": 38.91,
+        "fairPe": 39.45,
         "epsStd": 0.054,
         "history": [
             {
@@ -424,7 +424,7 @@
         "marketIndex": "S&P 500",
         "price": 697.52,
         "profit": 29.8,
-        "pe": 26.28,
+        "pe": 23.8,
         "pb": 6.8,
         "ps": 7.79,
         "evEbitda": 16.41,
@@ -434,7 +434,7 @@
         "actEps": 3.83,
         "surprise": -29.91,
         "nextEarnings": "待公佈",
-        "fairPe": 26.28,
+        "fairPe": 23.8,
         "epsStd": 2.805,
         "history": [
             {
@@ -502,7 +502,7 @@
         "marketIndex": "S&P 500",
         "price": 334.76,
         "profit": 54.8,
-        "pe": 17.07,
+        "pe": 16.8,
         "pb": 6.58,
         "ps": 9.18,
         "evEbitda": 23.04,
@@ -512,7 +512,7 @@
         "actEps": 9.11,
         "surprise": 214.23,
         "nextEarnings": "2026-10-28",
-        "fairPe": 17.07,
+        "fairPe": 16.8,
         "epsStd": 2.12,
         "history": [
             {
@@ -587,7 +587,7 @@
         "marketIndex": "S&P 500",
         "price": 538.99,
         "profit": 22.3,
-        "pe": 13.58,
+        "pe": 13.56,
         "pb": 0.0,
         "ps": 3.0,
         "evEbitda": -1.79,
@@ -597,7 +597,7 @@
         "actEps": 6.03,
         "surprise": 17.4,
         "nextEarnings": "2026-11-07",
-        "fairPe": 13.58,
+        "fairPe": 13.56,
         "epsStd": 1.005,
         "history": [
             {
