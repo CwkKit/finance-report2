@@ -9,7 +9,7 @@
         "pe": 25.87,
         "pb": 21.58,
         "ps": 16.31,
-        "evEbitda": 24.41,
+        "evEbitda": 24.39,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "estEps": 2.09,
@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 521.91,
         "profit": 41.2,
-        "pe": 27.24,
+        "pe": 26.82,
         "pb": 8.24,
         "ps": 11.19,
         "evEbitda": 18.8,
@@ -186,7 +186,7 @@
         "actEps": 4.89,
         "surprise": 3.59,
         "nextEarnings": "2027-01-27",
-        "fairPe": 27.24,
+        "fairPe": 26.82,
         "epsStd": 0.14,
         "history": [
             {
@@ -264,7 +264,7 @@
         "pe": 439.35,
         "pb": 17.7,
         "ps": 15.26,
-        "evEbitda": 157.78,
+        "evEbitda": 157.75,
         "shortDesc": "Auto Manufacturers",
         "story": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
         "estEps": 0.45,
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 240.35,
         "profit": 17.4,
-        "pe": 19.34,
+        "pe": 19.43,
         "pb": 6.27,
         "ps": 3.35,
         "evEbitda": 16.33,
@@ -354,14 +354,14 @@
         "story": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
         "estEps": 1.96,
         "actEps": 1.89,
-        "surprise": -3.54,
+        "surprise": -3.47,
         "nextEarnings": "2027-02-04",
-        "fairPe": 19.34,
+        "fairPe": 19.43,
         "epsStd": 1.318,
         "history": [
             {
                 "quarter": "2027 Q1",
-                "est": 2.46,
+                "est": 2.44,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
@@ -370,7 +370,7 @@
                 "quarter": "2026 Q4",
                 "est": 1.96,
                 "act": 1.89,
-                "surprise": -3.54,
+                "surprise": -3.47,
                 "status": "Miss"
             },
             {
