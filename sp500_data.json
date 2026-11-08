@@ -102,7 +102,7 @@
         "surprise": 5.78,
         "nextEarnings": "2027-01-28",
         "fairPe": 38.13,
-        "epsStd": 0.048,
+        "epsStd": 0.047,
         "history": [
             {
                 "quarter": "2027 Q1",
@@ -136,7 +136,7 @@
                 "quarter": "2026 Q1",
                 "est": 2.67,
                 "act": 2.84,
-                "surprise": 6.25,
+                "surprise": 6.34,
                 "status": "Beat"
             },
             {
@@ -150,7 +150,7 @@
                 "quarter": "2025 Q3",
                 "est": 1.43,
                 "act": 1.57,
-                "surprise": 9.48,
+                "surprise": 10.12,
                 "status": "Beat"
             },
             {
@@ -162,9 +162,9 @@
             },
             {
                 "quarter": "2025 Q1",
-                "est": 2.35,
+                "est": 2.34,
                 "act": 2.4,
-                "surprise": 2.26,
+                "surprise": 2.52,
                 "status": "Beat"
             }
         ]
@@ -357,7 +357,7 @@
         "surprise": -3.47,
         "nextEarnings": "2027-02-04",
         "fairPe": 20.96,
-        "epsStd": 1.318,
+        "epsStd": 1.319,
         "history": [
             {
                 "quarter": "2027 Q1",
@@ -403,23 +403,23 @@
             },
             {
                 "quarter": "2025 Q3",
-                "est": 1.32,
+                "est": 1.33,
                 "act": 1.68,
-                "surprise": 27.19,
+                "surprise": 26.13,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
                 "est": 1.36,
                 "act": 1.59,
-                "surprise": 16.77,
+                "surprise": 17.08,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
                 "est": 1.48,
                 "act": 1.86,
-                "surprise": 25.29,
+                "surprise": 25.36,
                 "status": "Beat"
             }
         ]
@@ -442,7 +442,7 @@
         "surprise": -29.33,
         "nextEarnings": "2027-01-27",
         "fairPe": 20.82,
-        "epsStd": 1.092,
+        "epsStd": 2.802,
         "history": [
             {
                 "quarter": "2027 Q1",
@@ -467,9 +467,9 @@
             },
             {
                 "quarter": "2026 Q2",
-                "est": 6.82,
-                "act": 7.31,
-                "surprise": 7.2,
+                "est": 6.66,
+                "act": 10.44,
+                "surprise": 56.79,
                 "status": "Beat"
             },
             {
@@ -481,30 +481,30 @@
             },
             {
                 "quarter": "2025 Q4",
-                "est": 6.67,
-                "act": 7.25,
-                "surprise": 8.66,
-                "status": "Beat"
+                "est": 6.71,
+                "act": 1.05,
+                "surprise": -84.34,
+                "status": "Miss"
             },
             {
                 "quarter": "2025 Q3",
-                "est": 5.86,
+                "est": 5.9,
                 "act": 7.14,
-                "surprise": 21.82,
+                "surprise": 20.96,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q2",
-                "est": 5.21,
+                "est": 5.22,
                 "act": 6.43,
-                "surprise": 23.53,
+                "surprise": 23.11,
                 "status": "Beat"
             },
             {
                 "quarter": "2025 Q1",
-                "est": 6.74,
+                "est": 6.76,
                 "act": 8.02,
-                "surprise": 19.0,
+                "surprise": 18.67,
                 "status": "Beat"
             }
         ]
@@ -582,7 +582,7 @@
                 "quarter": "2025 Q2",
                 "est": 2.01,
                 "act": 2.81,
-                "surprise": 39.84,
+                "surprise": 40.1,
                 "status": "Beat"
             },
             {
@@ -612,7 +612,7 @@
         "surprise": -3.21,
         "nextEarnings": "待公佈",
         "fairPe": 14.36,
-        "epsStd": 0.483,
+        "epsStd": 0.471,
         "history": [
             {
                 "quarter": "2026 Q4",
@@ -655,6 +655,13 @@
                 "act": 5.17,
                 "surprise": 2.71,
                 "status": "Beat"
+            },
+            {
+                "quarter": "2025 Q2",
+                "est": 4.72,
+                "act": 4.47,
+                "surprise": -5.37,
+                "status": "Miss"
             }
         ]
     },
