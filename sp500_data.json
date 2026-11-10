@@ -6,7 +6,7 @@
         "marketIndex": "S&P 500",
         "price": 178.67,
         "profit": 63.7,
-        "pe": 23.6,
+        "pe": 22.59,
         "pb": 18.84,
         "ps": 14.24,
         "evEbitda": 21.28,
@@ -16,7 +16,7 @@
         "actEps": 2.22,
         "surprise": 6.16,
         "nextEarnings": "2026-11-17",
-        "fairPe": 23.6,
+        "fairPe": 22.59,
         "epsStd": 0.033,
         "history": [
             {
@@ -97,25 +97,25 @@
         "evEbitda": 29.94,
         "shortDesc": "Consumer Electronics",
         "story": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories, including Apple Watch, AirPods, Beats products, Apple Vision Pro, Apple TV 4K, HomePod, and Apple HomeView, as well as Apple branded and third-party accessories. It also provides advertising services comprising third-party licensing arrangements and own advertising platforms; AppleCare and cloud services; and payment services, including Apple Card and Apple Pay. In addition, the company operates App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts. Further, it provides digital content through subscription-based services, including Apple Arcade, a game service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience; Apple News+, a news and magazine service; and Apple TV, which offers original content and live sports. The company sells its products and resells third-party products through its retail and online stores, and direct sales force; its services through its various service platforms; and third-party cellular network carriers and other resellers. It serves consumer, small and mid-sized business, education, enterprise, and government markets. The company operates in North and South America, European countries, India, the Middle East, Africa, China mainland, Hong Kong, Taiwan, Japan, Australia, New Zealand, and rest of Asia. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
-        "estEps": 1.99,
+        "estEps": 1.98,
         "actEps": 2.1,
-        "surprise": 5.78,
+        "surprise": 5.8,
         "nextEarnings": "2027-01-28",
         "fairPe": 39.05,
-        "epsStd": 0.048,
+        "epsStd": 0.049,
         "history": [
             {
                 "quarter": "2027 Q1",
-                "est": 2.92,
+                "est": 2.91,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
             },
             {
                 "quarter": "2026 Q4",
-                "est": 1.99,
+                "est": 1.98,
                 "act": 2.1,
-                "surprise": 5.78,
+                "surprise": 5.8,
                 "status": "Beat"
             },
             {
@@ -176,7 +176,7 @@
         "marketIndex": "S&P 500",
         "price": 545.18,
         "profit": 41.2,
-        "pe": 27.69,
+        "pe": 28.45,
         "pb": 8.61,
         "ps": 11.69,
         "evEbitda": 20.02,
@@ -186,7 +186,7 @@
         "actEps": 4.89,
         "surprise": 3.59,
         "nextEarnings": "2027-01-27",
-        "fairPe": 27.69,
+        "fairPe": 28.45,
         "epsStd": 0.14,
         "history": [
             {
@@ -261,7 +261,7 @@
         "marketIndex": "S&P 500",
         "price": 378.05,
         "profit": 3.1,
-        "pe": 393.8,
+        "pe": 415.44,
         "pb": 16.74,
         "ps": 14.43,
         "evEbitda": 149.01,
@@ -271,7 +271,7 @@
         "actEps": 0.48,
         "surprise": 6.4,
         "nextEarnings": "2027-01-27",
-        "fairPe": 393.8,
+        "fairPe": 415.44,
         "epsStd": 0.096,
         "history": [
             {
@@ -346,7 +346,7 @@
         "marketIndex": "S&P 500",
         "price": 266.93,
         "profit": 16.9,
-        "pe": 20.97,
+        "pe": 21.58,
         "pb": 4.7,
         "ps": 3.62,
         "evEbitda": 16.75,
@@ -356,7 +356,7 @@
         "actEps": 1.89,
         "surprise": -3.47,
         "nextEarnings": "2027-02-04",
-        "fairPe": 20.97,
+        "fairPe": 21.58,
         "epsStd": 1.318,
         "history": [
             {
@@ -431,7 +431,7 @@
         "marketIndex": "S&P 500",
         "price": 641.37,
         "profit": 31.1,
-        "pe": 20.82,
+        "pe": 21.88,
         "pb": 6.02,
         "ps": 6.79,
         "evEbitda": 14.39,
@@ -441,7 +441,7 @@
         "actEps": 3.83,
         "surprise": -29.33,
         "nextEarnings": "2027-01-27",
-        "fairPe": 20.82,
+        "fairPe": 21.88,
         "epsStd": 1.092,
         "history": [
             {
@@ -516,7 +516,7 @@
         "marketIndex": "S&P 500",
         "price": 288.15,
         "profit": 50.0,
-        "pe": 14.87,
+        "pe": 15.05,
         "pb": 5.37,
         "ps": 7.52,
         "evEbitda": 18.57,
@@ -526,7 +526,7 @@
         "actEps": 2.12,
         "surprise": -29.52,
         "nextEarnings": "2027-02-03",
-        "fairPe": 14.87,
+        "fairPe": 15.05,
         "epsStd": 2.24,
         "history": [
             {
@@ -601,9 +601,9 @@
         "marketIndex": "S&P 500",
         "price": 575.25,
         "profit": 19.5,
-        "pe": 14.36,
+        "pe": 16.1,
         "pb": 0.0,
-        "ps": 3.11,
+        "ps": 3.09,
         "evEbitda": -2.04,
         "shortDesc": "Insurance - Diversified",
         "story": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses. The company provides property, casualty, life, accident, and health insurance and reinsurance; operates railroad systems in North America; generates, transmits, stores, and distributes electricity from natural gas, coal, wind, solar, hydroelectric, nuclear, and geothermal sources; operates natural gas distribution and storage facilities, interstate pipelines, liquefied natural gas facilities, and compressor and meter stations; and holds interest in coal mining assets. It manufactures boxed chocolates and other confectionery products; specialty chemicals, metal cutting tools, and components for aerospace and power generation applications; prefabricated and site-built residential homes, flooring products; insulation, roofing, and engineered products; building and engineered components; paints and coatings; and bricks and masonry products, as well as offers manufactured and site-built home construction, and related lending and financial services. In addition, the company provides recreational vehicles, apparel, footwear, toys, jewelry, custom picture framing products, alkaline batteries, logistics services, and professional aviation training and shared aircraft ownership programs; castings, forgings, fasteners/fastener systems, aerostructures, and precision components; and cobalt, nickel, and titanium alloys. Further, it distributes televisions and information, and grocery and non-food consumer products; franchises and services quick service restaurants; and distributes electronic components. Additionally, it retails automobiles; furniture, bedding, and accessories; household appliances, electronics, and floor coverings; watches, home decor and repair services; sells kitchenware; and motorcycle clothing and equipment. The company was incorporated in 1998 and is headquartered in Omaha, Nebraska.",
@@ -611,12 +611,12 @@
         "actEps": 5.94,
         "surprise": -3.21,
         "nextEarnings": "2027-03-01",
-        "fairPe": 14.36,
+        "fairPe": 16.1,
         "epsStd": 0.471,
         "history": [
             {
                 "quarter": "2027 Q1",
-                "est": 5.12,
+                "est": 5.91,
                 "act": "-",
                 "surprise": "-",
                 "status": "等待公佈"
@@ -679,7 +679,7 @@
         "marketIndex": "S&P 500",
         "price": 342.08,
         "profit": 34.6,
-        "pe": 14.03,
+        "pe": 14.35,
         "pb": 2.59,
         "ps": 4.76,
         "evEbitda": 0,
@@ -689,7 +689,7 @@
         "actEps": 5.75,
         "surprise": -3.24,
         "nextEarnings": "2027-01-14",
-        "fairPe": 14.03,
+        "fairPe": 14.35,
         "epsStd": 0.333,
         "history": [
             {
