@@ -7,18 +7,25 @@
         "price": 155.46,
         "profit": 63.7,
         "pe": 19.65,
-        "pb": 16.39,
+        "pb": 24.02,
         "ps": 12.39,
         "evEbitda": 18.5,
         "shortDesc": "Semiconductors",
         "story": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-        "estEps": 2.09,
-        "actEps": 2.22,
-        "surprise": 6.16,
+        "estEps": 2.47,
+        "actEps": 2.68,
+        "surprise": 8.36,
         "nextEarnings": "待公佈",
         "fairPe": 19.65,
-        "epsStd": 0.033,
+        "epsStd": 0.059,
         "history": [
+            {
+                "quarter": "2026 Q4",
+                "est": 2.47,
+                "act": 2.68,
+                "surprise": 8.36,
+                "status": "Beat"
+            },
             {
                 "quarter": "2026 Q3",
                 "est": 2.09,
@@ -66,13 +73,6 @@
                 "est": 0.85,
                 "act": 0.89,
                 "surprise": 5.25,
-                "status": "Beat"
-            },
-            {
-                "quarter": "2024 Q4",
-                "est": 0.75,
-                "act": 0.81,
-                "surprise": 8.52,
                 "status": "Beat"
             }
         ]
@@ -257,7 +257,7 @@
         "pe": 417.7,
         "pb": 16.83,
         "ps": 14.51,
-        "evEbitda": 149.82,
+        "evEbitda": 149.84,
         "shortDesc": "Auto Manufacturers",
         "story": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
         "estEps": 0.45,
@@ -512,7 +512,7 @@
         "pe": 14.63,
         "pb": 5.22,
         "ps": 7.31,
-        "evEbitda": 18.04,
+        "evEbitda": 18.05,
         "shortDesc": "Internet Content & Information",
         "story": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
         "estEps": 3.01,
